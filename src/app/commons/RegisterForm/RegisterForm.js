@@ -23,7 +23,7 @@ const RegisterForm = () => {
     lastName: Yup.string().min(2, 'Le nom renseigné est trop court'),
     email: Yup.string().email("E-mail erroné"),
     password: Yup.string().min(6, '6 caractères min.').max(50, '20 caractères max.'),
-    // password2: Yup.string().min(6, '6 caractères min.').max(50, '20 caractères max.'),
+    confirmPassword: Yup.string().oneOf([Yup.ref('password'), null], 'Passwords must match')
   });
 
   const submit = async (values, actions) => {
@@ -35,37 +35,37 @@ const RegisterForm = () => {
   } 
 
 
-  return (  
-    
-    
-       <Formik 
-      onSubmit={submit} 
-      initialValues={{name: "", lastName: "", email: "", password: ""}}
-      validationSchema={userSchema}
-      >
-        {({
-          handleChange,
-          handleBlur,
-          handleSubmit,
-          values,
-          isSubmitting,
-          errors,
-          touched
-        }) => (
-          <form  onSubmit={handleSubmit}>
-            <Field name="name" component={CustomInput} />
-            <ErrorMessage name="name" component={CustomError} />
-            <Field name="lastName" component={CustomInput} />
-            <ErrorMessage name="lastName" component={CustomError} />
-            <Field name="email" type="email" component={CustomInput} />
-            <ErrorMessage name="email" component={CustomError} />
-            <Field name="password" type="password"  component={CustomInput} />
-            <ErrorMessage name="password" component={CustomError} />
-            <button type="submit" disabled={isSubmitting}>Sign up</button>
-          </form>
-          
-        )}
-      </Formik> 
+  return (      
+    <Formik 
+    onSubmit={submit} 
+    initialValues={{name: "", lastName: "", email: "", password: "", confirmPassword: ""}}
+    validationSchema={userSchema}
+    >
+      {({
+        handleChange,
+        handleBlur,
+        handleSubmit,
+        values,
+        isSubmitting,
+        errors,
+        touched
+      }) => (
+        <form  onSubmit={handleSubmit}>
+          <Field name="name" component={CustomInput} />
+          <ErrorMessage name="name" component={CustomError} />
+          <Field name="lastName" component={CustomInput} />
+          <ErrorMessage name="lastName" component={CustomError} />
+          <Field name="email" type="email" component={CustomInput} />
+          <ErrorMessage name="email" component={CustomError} />
+          <Field name="password" type="password"  component={CustomInput} />
+          <ErrorMessage name="password" component={CustomError} />
+          <Field name="confirmPassword" type="password"  component={CustomInput} />
+          <ErrorMessage name="confirmPassword" component={CustomError} />
+          <button type="submit" disabled={isSubmitting}>Sign up</button>
+        </form>
+        
+      )}
+    </Formik> 
 
   )
 }
