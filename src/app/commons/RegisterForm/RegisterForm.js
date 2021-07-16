@@ -7,7 +7,7 @@ const CustomInput = ({field, form, ...props}) => {
   return (
     <div>
       <label>{field.name}</label>
-      <input {...field} {...props} ></input>
+      <input {...field} {...props}></input>
     </div>
   )
 }
@@ -27,11 +27,9 @@ const RegisterForm = () => {
   });
 
   const submit = async (values, actions) => {
-    const {name, lastname, email, password} = values;
+    const {name, lastName, email, password, confirmPassword} = values;
     actions.setSubmitting(false);
-    const token = await authService.register(name, lastname, email, password);
-    // sessionStorage.setItem('userName', name);
-    // setToken(token.data.token);
+    authService.register(name, lastName, email, password, confirmPassword);
   } 
 
 

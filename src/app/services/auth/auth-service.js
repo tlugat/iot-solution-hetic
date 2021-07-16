@@ -1,29 +1,32 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api/auth/";
+const API_URL = "https://iot-project-hetic.herokuapp.com/api/user/";
 
-const register = async (name, lastname, email, password) => {
-  return axios.post(API_URL + "signup", {
+const register = async (name, lastName, email, password, confirmPassword) => {
+  return axios.post(API_URL + "register", {
     name,
-    lastname,
+    lastName,
     email,
     password,
+    confirmPassword
   });
 };
 
 const login = async (email, password) => {
   return axios
-    .post(API_URL + "signin", {
+    .post(API_URL + "login", {
       email,
       password,
     })
     .then((response) => {
-      if (response.data.accessToken) {
-        localStorage.setItem("user", JSON.stringify(response.data));
-      }
-
-      return response.data;
-    });
+      // if (response.data) {
+      //   localStorage.setItem("user", JSON.stringify(response.data));
+      // }
+      // return response.data;
+      console.log(response.data)
+    })
+    .catch(error => console.log(error))
+    ;
 };
 
 const logout = () => {
