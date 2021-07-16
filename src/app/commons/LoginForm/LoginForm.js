@@ -27,9 +27,7 @@ const Form = () => {
   const submit = async (values, actions) => {
     const {email, password} = values;
     actions.setSubmitting(false);
-    const token = await authService.login(email, password);
-    // sessionStorage.setItem('userName', token.data.name);
-    // setToken(token.data.token);
+    authService.login(email, password);
   }
 
   return (  
@@ -54,7 +52,7 @@ const Form = () => {
             <Field name="password" type="password"  component={CustomInput} />
             <ErrorMessage name="password" component={CustomError} />
             <button type="submit" disabled={isSubmitting}>Login</button>
-            <p>Don't have an account ? <span><Link to="/signup">Sign up</Link></span></p>
+            <p>Don't have an account ? <span><Link to="/signup">Register</Link></span></p>
           </form>
           
         )}
