@@ -5,26 +5,12 @@ const Reducer = (state, action) => {
           ...state,
           ...action.payload
         };
-      case 'SET_IMEI':
+      case 'SET_USER':
       return {
         ...state,
-        imei: action.payload
+        user: action.payload
       };
-      // case 'SET_POSTS':
-      //     return {
-      //         ...state,
-      //         posts: action.payload
-      //     };
-      // case 'ADD_POST':
-      //     return {
-      //         ...state,
-      //         posts: state.posts.concat(action.payload)
-      //     };
-      // case 'REMOVE_POST':
-      //     return {
-      //         ...state,
-      //         posts: state.posts.filter(post => post.id !== action.payload)
-      //     };
+  
       case 'SET_ERROR':
           return {
               ...state,
