@@ -1,6 +1,7 @@
+import {useState, useEffect} from "react";
 import {Formik, Field, ErrorMessage} from 'formik';
 import * as Yup from 'yup';
-import authService from 'app/services/auth/auth-service';
+import {useAuth} from "app/hooks/useAuth";
 
 
 const CustomInput = ({field, form, ...props}) => {
@@ -15,8 +16,11 @@ const CustomInput = ({field, form, ...props}) => {
 const CustomError = (props) => <div>{props.children}</div>
 
 
-const RegisterForm = () => {
-  
+const RegisterForm = ({setIsRegistered}) => {
+
+  const auth = useAuth();
+
+  const [registerError, setRegisterError] = useState("");
 
   const userSchema = Yup.object().shape({
     name: Yup.string().min(2, 'Le nom renseigné est trop court'),
@@ -29,7 +33,12 @@ const RegisterForm = () => {
   const submit = async (values, actions) => {
     const {name, lastName, email, password, confirmPassword} = values;
     actions.setSubmitting(false);
-    authService.register(name, lastName, email, password, confirmPassword);
+    auth.register(name, lastName, email, password, confirmPassword)
+    .then(response => {
+      if(response.data.msg === "Success") setIsRegistered(true)
+      else if(response.data.error) setRegisterError(response.data.error)
+    })
+    .catch(error => console.log(error));
   } 
 
 
@@ -60,6 +69,7 @@ const RegisterForm = () => {
           <Field name="confirmPassword" type="password"  component={CustomInput} />
           <ErrorMessage name="confirmPassword" component={CustomError} />
           <button type="submit" disabled={isSubmitting}>Sign up</button>
+          {registerError && <div>{registerError}</div>}
         </form>
         
       )}

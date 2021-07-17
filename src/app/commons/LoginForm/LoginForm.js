@@ -1,7 +1,7 @@
 import {Formik, Field, ErrorMessage} from 'formik';
 import * as Yup from 'yup';
 import {Link} from 'react-router-dom';
-import authService from 'app/services/auth/auth-service';
+import {useAuth} from "app/hooks/useAuth";
 
 
 const CustomInput = ({field, form, ...props}) => {
@@ -18,6 +18,8 @@ const CustomError = (props) => <div>{props.children}</div>
 
 const Form = () => {
   
+  const auth = useAuth();
+
   const userSchema = Yup.object().shape({
     email: Yup.string().email("E-mail erroné").min(6, '6 caractères min.').max(100, '100 caractères max.'),
     password: Yup.string().min(6, '6 caractères min.').max(50, '50 caractères max.'),
@@ -27,7 +29,7 @@ const Form = () => {
   const submit = async (values, actions) => {
     const {email, password} = values;
     actions.setSubmitting(false);
-    authService.login(email, password);
+    auth.login(email, password);
   }
 
   return (  
@@ -52,7 +54,7 @@ const Form = () => {
             <Field name="password" type="password"  component={CustomInput} />
             <ErrorMessage name="password" component={CustomError} />
             <button type="submit" disabled={isSubmitting}>Login</button>
-            <p>Don't have an account ? <span><Link to="/signup">Register</Link></span></p>
+            <p>Don't have an account ? <span><Link to="/register">Register</Link></span></p>
           </form>
           
         )}

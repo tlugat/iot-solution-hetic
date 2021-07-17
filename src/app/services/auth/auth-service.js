@@ -9,7 +9,7 @@ const register = async (name, lastName, email, password, confirmPassword) => {
     email,
     password,
     confirmPassword
-  });
+  })
 };
 
 const login = async (email, password) => {
@@ -18,15 +18,6 @@ const login = async (email, password) => {
       email,
       password,
     })
-    .then((response) => {
-      // if (response.data) {
-      //   localStorage.setItem("user", JSON.stringify(response.data));
-      // }
-      // return response.data;
-      console.log(response.data)
-    })
-    .catch(error => console.log(error))
-    ;
 };
 
 const logout = () => {
