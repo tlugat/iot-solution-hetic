@@ -1,28 +1,23 @@
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 
-import authService from 'app/services/auth/auth-service';
+import { ProvideAuth } from "app/hooks/useAuth";
 
+import PrivateRoute from "app/commons/PrivateRoute/PrivateRoute";
 import Home from "app/pages/Home/Home";
 import Register from "app/pages/Register";
 import Login from "app/pages/Login";
 
 function App() {
 
-  const user = authService.getCurrentUser();
-
   return (
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="/" component={Home}/>
-          {
-            !user && (
-              <>
-                <Route exact path="/register" component={Register}/>
-                <Route exact path="/login" component={Login}/>
-              </>
-            )
-          }
+          <ProvideAuth>
+            <PrivateRoute exact path="/" component={Home}/>
+            <Route exact path="/register" component={Register}/>
+            <Route exact path="/login" component={Login}/>
+          </ProvideAuth>
         </Switch>
       </Router>
     </div>
