@@ -1,0 +1,19 @@
+@import "src/app/styles/_global.scss";
+
+.container {
+  @include d-flex(column, null, null, .5rem);
+  input {
+    height: 54px;
+    background-color:#fff;
+    border: none; 
+  }
+  label {
+    font-size: $body-regular-fs;
+    color: $text;
+  }
+}
+
+.errorMessage {
+  @include d-flex(row, null, center, .5rem);
+  color: $error;
+}
