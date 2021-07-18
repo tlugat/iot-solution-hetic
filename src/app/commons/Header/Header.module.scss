@@ -1,0 +1,12 @@
+@import "src/app/styles/_global.scss";
+
+.container {
+  height: 103px;
+  @include d-flex(row, null, center, null);
+  padding: 20px 40px;
+  background-color: #fff;
+}
+
+.navContainer {
+  margin-left: auto;
+}

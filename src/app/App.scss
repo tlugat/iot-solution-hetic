@@ -1,0 +1,9 @@
+@import "src/app/styles/_global.scss";
+
+.App {
+  font-family: "Roboto-regular";
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: $light-grey-bg;
+}

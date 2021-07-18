@@ -3,11 +3,10 @@ import {Formik, Field, ErrorMessage} from 'formik';
 import * as Yup from 'yup';
 import {useAuth} from "app/hooks/useAuth";
 
-import CustomInput from "app/commons/CustomInput/CustomInput";
-import {CustomError} from "app/commons/CustomInput/CustomInput";
+import { CustomInput, CustomError } from "app/commons/CustomInput/CustomInput";
+import {PrimaryBtn} from "app/commons/Buttons/Buttons";
 
-
-
+import styles from "./RegisterForm.module.scss";
 
 const RegisterForm = ({setIsRegistered}) => {
 
@@ -50,18 +49,18 @@ const RegisterForm = ({setIsRegistered}) => {
         errors,
         touched
       }) => (
-        <form  onSubmit={handleSubmit}>
-          <Field placeholder="John Doe" name="name" component={CustomInput} />
-          <ErrorMessage name="name" component={CustomError} />
+        <form className={styles.container}  onSubmit={handleSubmit}>
           <Field name="lastName" component={CustomInput} />
           <ErrorMessage name="lastName" component={CustomError} />
+          <Field name="name" component={CustomInput} />
+          <ErrorMessage name="name" component={CustomError} />
           <Field name="email" type="email" component={CustomInput} />
           <ErrorMessage name="email" component={CustomError} />
           <Field name="password" type="password"  component={CustomInput} />
           <ErrorMessage name="password" component={CustomError} />
           <Field name="confirmPassword" type="password"  component={CustomInput} />
           <ErrorMessage name="confirmPassword" component={CustomError} />
-          <button type="submit" disabled={isSubmitting}>Sign up</button>
+          <PrimaryBtn type="submit" disabled={isSubmitting} value="Register"/>
           {registerError && <div>{registerError}</div>}
         </form>
         

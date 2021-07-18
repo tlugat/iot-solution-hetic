@@ -1,0 +1,6 @@
+@import "src/app/styles/_global.scss";
+
+.container {
+  max-width: 500px;
+  @include d-grid(1fr, auto, 1rem)
+}

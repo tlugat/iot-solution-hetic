@@ -6,7 +6,7 @@
   border-radius: $border-radius-small;
   font-size: $button-fs;
   cursor: pointer;
-  background: $primary;
+  background-color: $primary;
   color: #fff; 
   border: none;
   span.right {
@@ -16,10 +16,14 @@
 
 .secondary {
   border: solid 1px $primary;
-  background: #fff;
+  background-color: #fff;
   color: $primary; 
 }
 
 .rounded {
   border-radius: 50px;
+}
+
+.disabled {
+  background-color: $light-grey-bg;
 }
