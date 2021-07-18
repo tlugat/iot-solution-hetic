@@ -1,0 +1,66 @@
+/* Font-sizes */
+
+$title-fs:        56px;   // title
+$h1-fs:           40px;   // h1
+$h2-fs:           32px;   // h2
+$subTitle-fs:     24px;   // subTitle
+
+$body-large-fs:   20px;   // large
+$body-bold-fs:    16px;   // bold
+$body-regular-fs: 16px;   // regular
+$body-small-fs:   14px;   // small
+
+$button-fs:       14px;   // text button
+
+
+/* Colors */
+
+// background
+
+$light-grey-bg: #F6F6F6;                       
+
+// primary 
+
+$primary:         #524A79;
+$primary-soft:      linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #524A79;
+$primary-ultraSoft: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), #524A79;
+
+// secondary
+
+$secondary:         #97D8EC;
+$secondary-soft:      linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #97D8EC;
+$secondary-ultraSoft: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), #97D8EC;
+
+// text
+
+$text:         #3E3245;
+$text-soft:      linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #3E3245;
+$text-ultraSoft: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), #3E3245;
+
+// error
+
+$error:         #FF7E7E;
+$error-soft:      linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #FF7E7E;
+$error-ultraSoft: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), #FF7E7E;
+
+// success
+
+$succes:          #29B95F;
+$success-soft:      linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #29B95F;
+$success-ultraSoft: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), #54C77F;
+
+
+/* Border-radius */
+
+$border-radius-small: 4px;
+$border-radius-large: 10px;
+
+
+/* Breakpoints */
+
+$sm:   580px;   // small
+$m:    768px;   // medium
+$l:    1024px;  // large
+$xl:   1200px;  // xlarge
+$xxl:  1400px;  // xxlarge
+$xxxl: 1900px;  // xxxlarge
