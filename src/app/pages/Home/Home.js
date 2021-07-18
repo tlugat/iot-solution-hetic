@@ -1,6 +1,6 @@
 import {useAuth} from "app/hooks/useAuth";
-import PrimaryBtn from "app/commons/buttons/Primary/PrymaryBtn";
-import SecondaryBtn from "app/commons/buttons/Secondary/SecondaryBtn";
+import {PrimaryBtn, SecondaryBtn} from "app/commons/Buttons/Buttons";
+// import SecondaryBtn from "app/commons/buttons/Secondary/SecondaryBtn";
 import styles from './Home.module.scss';
 
 function Home() {

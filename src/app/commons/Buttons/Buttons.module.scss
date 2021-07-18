@@ -2,16 +2,22 @@
 
 .button {
   @include d-flex(row, center, center, .5rem);
-  border: none;
   padding: 12px 32px;
   border-radius: $border-radius-small;
   font-size: $button-fs;
+  cursor: pointer;
   background: $primary;
   color: #fff; 
-  cursor: pointer;
+  border: none;
   span.right {
     order:-1;
   }
+}
+
+.secondary {
+  border: solid 1px $primary;
+  background: #fff;
+  color: $primary; 
 }
 
 .rounded {
