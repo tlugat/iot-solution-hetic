@@ -3,15 +3,8 @@ import * as Yup from 'yup';
 import {Link} from 'react-router-dom';
 import {useAuth} from "app/hooks/useAuth";
 
+import CustomInput from "app/commons/CustomInput/CustomInput";
 
-const CustomInput = ({field, form, ...props}) => {
-  return (
-    <div >
-      <label>{field.name}</label>
-      <input {...field} {...props} ></input>
-    </div>
-  )
-}
 
 const CustomError = (props) => <div>{props.children}</div>
 

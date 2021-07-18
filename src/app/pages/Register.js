@@ -23,7 +23,7 @@ function Register() {
     if(isRegistered) {
       const timer = setTimeout(() => {
       setRedirectToReferrer(true);
-    }, 10000);
+    }, 60000);
     return () => clearTimeout(timer);
     }
   })

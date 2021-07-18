@@ -1,19 +1,12 @@
-import {useState, useEffect} from "react";
+import {useState} from "react";
 import {Formik, Field, ErrorMessage} from 'formik';
 import * as Yup from 'yup';
 import {useAuth} from "app/hooks/useAuth";
 
+import CustomInput from "app/commons/CustomInput/CustomInput";
+import {CustomError} from "app/commons/CustomInput/CustomInput";
 
-const CustomInput = ({field, form, ...props}) => {
-  return (
-    <div>
-      <label>{field.name}</label>
-      <input {...field} {...props}></input>
-    </div>
-  )
-}
 
-const CustomError = (props) => <div>{props.children}</div>
 
 
 const RegisterForm = ({setIsRegistered}) => {
@@ -58,7 +51,7 @@ const RegisterForm = ({setIsRegistered}) => {
         touched
       }) => (
         <form  onSubmit={handleSubmit}>
-          <Field name="name" component={CustomInput} />
+          <Field placeholder="John Doe" name="name" component={CustomInput} />
           <ErrorMessage name="name" component={CustomError} />
           <Field name="lastName" component={CustomInput} />
           <ErrorMessage name="lastName" component={CustomError} />
