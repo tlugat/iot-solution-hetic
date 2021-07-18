@@ -32,8 +32,10 @@ function useProvideAuth() {
         password,
       })
       .then(response => {
-        localStorage.setItem("user", response.data);
-        setUser(response.data)
+        if(response.status === 200) {
+          localStorage.setItem("user", response.data);
+          setUser(response.data)
+        }
       })
   };
 
@@ -45,6 +47,13 @@ function useProvideAuth() {
       password,
       confirmPassword
     })
+    // .then(response => {
+    //   if(response.status === 200) {
+
+    //   }
+    //   localStorage.setItem("user", response.data);
+    //   setUser(response.data)
+    // })
   };
 
   const logout = () => {
@@ -53,21 +62,11 @@ function useProvideAuth() {
   };
 
   // const sendPasswordResetEmail = (email) => {
-  //   return firebase
-  //     .auth()
-  //     .sendPasswordResetEmail(email)
-  //     .then(() => {
-  //       return true;
-  //     });
+    
   // };
 
   // const confirmPasswordReset = (code, password) => {
-  //   return firebase
-  //     .auth()
-  //     .confirmPasswordReset(code, password)
-  //     .then(() => {
-  //       return true;
-  //     });
+
   // };
 
   // Subscribe to user on mount
