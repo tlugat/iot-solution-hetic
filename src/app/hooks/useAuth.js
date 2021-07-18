@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useContext, createContext } from "react";
 import axios from "axios";
-import authService from "app/services/auth/auth-service";
 
 const API_URL = "https://iot-project-hetic.herokuapp.com/api/user/";
 
@@ -62,7 +61,7 @@ function useProvideAuth() {
   };
 
   // const sendPasswordResetEmail = (email) => {
-    
+     
   // };
 
   // const confirmPasswordReset = (code, password) => {

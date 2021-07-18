@@ -1,0 +1,19 @@
+@import "src/app/styles/_global.scss";
+
+.button {
+  @include d-flex(row, center, center, .5rem);
+  border: none;
+  padding: 12px 32px;
+  border-radius: $border-radius-small;
+  font-size: $button-fs;
+  background: $primary;
+  color: #fff; 
+
+  span.right {
+    order:-1;
+  }
+}
+
+.rounded {
+  border-radius: 50px;
+}
