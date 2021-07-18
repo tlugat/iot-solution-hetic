@@ -3,11 +3,10 @@ import * as Yup from 'yup';
 import {Link} from 'react-router-dom';
 import {useAuth} from "app/hooks/useAuth";
 
-import CustomInput from "app/commons/CustomInput/CustomInput";
+import { CustomInput, CustomError } from "app/commons/CustomInput/CustomInput";
+import {PrimaryBtn} from "app/commons/Buttons/Buttons";
 
-
-const CustomError = (props) => <div>{props.children}</div>
-
+import styles from "./LoginForm.module.scss";
 
 const Form = () => {
   
@@ -41,12 +40,12 @@ const Form = () => {
           errors,
           touched
         }) => (
-          <form onSubmit={handleSubmit} >
+          <form className={styles.container} onSubmit={handleSubmit} >
             <Field name="email" type="email" component={CustomInput} />
             <ErrorMessage name="email" component={CustomError} />
             <Field name="password" type="password"  component={CustomInput} />
             <ErrorMessage name="password" component={CustomError} />
-            <button type="submit" disabled={isSubmitting}>Login</button>
+            <PrimaryBtn type="submit" disabled={isSubmitting} value="Register"/>
             <p>Don't have an account ? <span><Link to="/register">Register</Link></span></p>
           </form>
           

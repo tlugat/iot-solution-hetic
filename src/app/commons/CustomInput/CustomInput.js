@@ -22,8 +22,8 @@ export const CustomError = ({children}) => (
   </div>
 )
 
-const CustomInput = ({field, form: {errors}, ...props}) => {
-  
+export const CustomInput = ({field, form: {errors}, ...props}) => {
+
   return (
     <div className={styles.container}>
       <label>{field.name}</label>
