@@ -1,17 +1,18 @@
 import styles from "./Buttons.module.scss";
 
 
-const Button = ({value, rounded, method, arrow, secondary, isDisabled, type}) => (
+const Button = ({value, rounded, method, arrow, secondary, isDisabled, type, customStyles}) => (
   <button 
   className={`${styles.button} ${rounded ? styles.rounded : ""} ${secondary ? styles.secondary : ""} ${isDisabled ? styles.disabled : ""}`}
   onClick={(e) => {
     if(method) {
       e.preventDefault();
-    method();
+      method();
     }
   }}
   disabled={isDisabled}
   type={type}
+  style={customStyles}
   >
     {arrow && (
        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,15 +25,15 @@ const Button = ({value, rounded, method, arrow, secondary, isDisabled, type}) =>
 )
 
 
-export function PrimaryBtn({value, rounded, method, arrow, isDisabled, type}) {
+export function PrimaryBtn({value, rounded, method, arrow, isDisabled, type, customStyles}) {
   return (
-   <Button type={type} isDisabled={isDisabled} value={value} rounded={rounded} method={method} arrow={arrow}/>
+   <Button customStyles={customStyles} type={type} isDisabled={isDisabled} value={value} rounded={rounded} method={method} arrow={arrow}/>
   )
 }
 
-export function SecondaryBtn({value, rounded, method, arrow, isDisabled, type}) {
+export function SecondaryBtn({value, rounded, method, arrow, isDisabled, type, customStyles}) {
   return (
-   <Button type={type} isDisabled={isDisabled} secondary value={value} rounded={rounded} method={method} arrow={arrow}/>
+   <Button customStyles={customStyles} type={type} isDisabled={isDisabled} secondary value={value} rounded={rounded} method={method} arrow={arrow}/>
   )
 }
 

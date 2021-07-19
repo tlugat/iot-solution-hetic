@@ -1,0 +1,16 @@
+@import "src/app/styles/_global.scss";
+
+.title {
+  span {
+    color: $secondary;
+  }
+}
+
+.about {
+  @include d-flex(row, center, center, 1rem);
+  padding: 40px;
+  line-height: 28.8px;
+  color: $text;
+  background-color: #fff;
+  border-radius: $border-radius-large;
+}

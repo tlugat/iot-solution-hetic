@@ -1,0 +1,15 @@
+@import "src/app/styles/_global.scss";
+
+.container {
+  padding: 40px;
+  @include d-flex(column, center, center, null);
+  line-height: 28.8px;
+  text-align: center;
+  background: $primary;
+  border-radius: $border-radius-large;
+  color: #fff;
+}
+
+.phone {
+  font-weight: bold;
+}

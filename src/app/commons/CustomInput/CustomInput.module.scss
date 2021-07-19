@@ -3,9 +3,10 @@
 .container {
   @include d-flex(column, null, null, .5rem);
   input {
-    height: 54px;
+    padding: 16px 20px;
     background-color:#fff;
     border: none; 
+    border-radius: $border-radius-small;
   }
   label {
     font-size: $body-regular-fs;

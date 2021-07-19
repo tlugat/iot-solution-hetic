@@ -46,13 +46,6 @@ function useProvideAuth() {
       password,
       confirmPassword
     })
-    // .then(response => {
-    //   if(response.status === 200) {
-
-    //   }
-    //   localStorage.setItem("user", response.data);
-    //   setUser(response.data)
-    // })
   };
 
   const logout = () => {

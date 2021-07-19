@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import {Redirect} from "react-router-dom";
 import {useAuth} from "app/hooks/useAuth";
 
+import PageContainer from "app/commons/PageContainer/PageContainer";
 import Form from 'app/commons/RegisterForm/RegisterForm';
 
 function Register() {
@@ -33,9 +34,9 @@ function Register() {
   }
 
   return (
-    <div>
+    <PageContainer>
       {isRegistered ? <div>Votre compte a ete enregistre avec succes !</div> : <Form setIsRegistered={setIsRegistered} /> }
-    </div>
+    </PageContainer>
   )
 }
 

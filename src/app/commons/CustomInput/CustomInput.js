@@ -23,10 +23,10 @@ export const CustomError = ({children}) => (
 )
 
 export const CustomInput = ({field, form: {errors}, ...props}) => {
-
+  
   return (
     <div className={styles.container}>
-      <label>{field.name}</label>
+      <label>{props.label}</label>
       <input style={getStyles(errors, field.name, field.value)} {...field} {...props}></input>
     </div>
   )
