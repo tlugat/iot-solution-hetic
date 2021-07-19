@@ -2,6 +2,7 @@
 
 .container {
   @include d-grid(1fr, auto, 40px);
+  margin-top: 100px; // == header height because position fixed get it out of the flux
   padding: 10px 20px;
   @include m {
     padding: 20px 40px;

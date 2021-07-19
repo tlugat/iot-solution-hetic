@@ -2,9 +2,17 @@
 
 .container {
   padding: 40px;
+  @include l {
+    @include d-flex(row, center, center, 40px);
+  }
   background-color: #fff; 
   border-radius: $border-radius-large;
   box-shadow: 0px 0px 20px rgba(211, 211, 211, 0.25);
+}
+
+.laundryImg {
+  width: 100%;
+  max-width: 608px;
 }
 
 .info {

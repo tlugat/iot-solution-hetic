@@ -5,6 +5,11 @@
   min-height: 100vh;
   max-width: 100vw;
   overflow-x: hidden;
-  @include d-grid(1fr, 100px auto, null);
   background-image: url("../app/assets/img/background.png");
+
+  h1 {
+    @include h1;
+  }
+
+
 }
