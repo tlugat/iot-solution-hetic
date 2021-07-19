@@ -58,3 +58,14 @@
 @mixin xxxl {
   @media only screen and (min-width:$xxxl) {@content;} // 1920px
 }
+
+/* Text */
+
+@mixin h1 {
+  font-family: "Roboto-bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: -1px;
+}

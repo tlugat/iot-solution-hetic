@@ -5,5 +5,11 @@
   min-height: 100vh;
   max-width: 100vw;
   overflow-x: hidden;
-  background-color: $light-grey-bg;
+  background-image: url("../app/assets/img/background.png");
+
+  h1 {
+    @include h1;
+  }
+
+
 }

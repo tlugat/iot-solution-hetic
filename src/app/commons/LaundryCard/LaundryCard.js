@@ -2,6 +2,7 @@ import {useAuth} from "app/hooks/useAuth";
 
 import styles from './LaundryCard.module.scss';
 
+import laundry_img from "app/assets/img/laundry-img.png";
 import dryer_logo from "app/assets/img/dryer-logo.svg";
 import washer_logo from "app/assets/img/washer-logo.svg"
 
@@ -15,6 +16,7 @@ function LaundryCard() {;
 
   return (
     <div className={styles.container}>
+      <img className={styles.laundryImg} src={laundry_img} alt={`View of ${laundry.name}`}/>
       <div className={styles.info}>
         <h1>{laundry.name}</h1>
         <p>Votre laverie {laundry.name} vous propose un service  Laundry Room qui va vous permettre de gerer votre laverie d’une main d’expert  </p>
