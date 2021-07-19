@@ -1,0 +1,1599 @@
+{
+  "laundries": [
+    {
+      "name": "Résidence étudiante Studéa Daumesnil",
+      "id": 1,
+      "adress": "18 Rue Victor Chevreuil",
+      "postcode": "75012",
+      "contact": {
+        "phone": "0 820 83 08 20",
+        "email": "studea.daumesnil@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.nexity-studea.com/locations-etudiantes/paris/studea-daumesnil-po0000005#",
+      "technicians": [
+        {
+          "name": "Pablo Escobar",
+          "specialisation": "electrician",
+          "contact": {
+            "phone":"01 12 32 56 76",
+            "email": "pablito@orange.fr"
+          } 
+        },
+        {
+          "name": "Thomas Shelby",
+          "specialisation": "plumber",
+          "contact": {
+            "phone":"06 30 89 76 54",
+            "email": "shelby@orange.fr"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 3",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name": "Machine a laver 4",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 5",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 3",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "Résidence étudiante Studéa Paris Davout",
+      "id": 2,
+      "adress": "1135 Boulevard Davout",
+      "postcode": "75020",
+      "contact": {
+        "phone": "0 820 83 08 20",
+        "email": "Paris.davout@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.nexity-studea.com/locations-etudiantes/paris/studea-paris-davout-po0000226",
+      "technicians": [
+        {
+          "name": "Philippe Deboves",
+          "specialisation": "plumber",
+          "contact": {
+            "phone":"01 43 76 18 90",
+            "email": "Philippe.deboves@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name": "Machine a laver 3",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 3",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "Résidence étudiante LOGIFAC Saint-Mandéen",
+      "id": 3,
+      "adress": "12 Rue Mongenot",
+      "postcode": "75012",
+      "contact": {
+        "phone": "01 53 66 19 51",
+        "email": "logifac@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.logifac.fr/residence/la-residence-saint-mandeen-paris/",
+      "technicians": [
+        {
+          "name": "Lucie berget",
+          "specialisation": "electrician",
+          "contact": {
+            "phone":"06 73 13 09 45",
+            "email": "lucie.berget@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "Résidence étudiante Paris Le-Clos-Saint-Germain, Les Estudines",
+      "id": 4,
+      "adress": "105 Rue de Bagnolet",
+      "postcode": "75020",
+      "contact": {
+        "phone": "09 69 39 22 00",
+        "email": "lesestudines@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.estudines.com/residence-logement-etudiant-paris-51-176.html",
+      "technicians": [
+        {
+          "name": "Clément Dupont",
+          "specialisation": "electrician",
+          "contact": {
+            "phone":"07 21 34 10 00",
+            "email": "clement.dupont@gmail.com"
+          } 
+        },{
+          "name": "Quentin Dupond",
+          "specialisation": "plumber",
+          "contact": {
+            "phone":"07 34 10 65 12",
+            "email": "quentin.dupond@gmail.com"
+          } 
+        },{
+          "name": " Aurelie Vanille",
+          "specialisation": "electrician",
+          "contact": {
+            "phone":"06 45 78 70 11",
+            "email": "aurelie.vanille@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name": "Machine a laver 3",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 3",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name": "Machine a laver 4",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 4",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name": "Machine a laver 5",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          }
+      ]
+    },
+    {
+      "name": "Résidence étudiante Studéa Vivaldi",
+      "id": 5,
+      "adress": "102 Rue de Reuilly",
+      "postcode": "75012",
+      "contact": {
+        "phone": "0 820 83 08 20",
+        "email": "Vivaldi@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.nexity-studea.com/locations-etudiantes/paris/studea-paris-vivaldi-po0000224",
+      "technicians": [
+        {
+          "name": "Elhadji Fall",
+          "specialisation": "plumber",
+          "contact": {
+            "phone":"06 55 24 31 01",
+            "email": "elhadji.fall@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 3",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 4",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "Résidence étudiante MACSF",
+      "id": 6,
+      "adress": "275 Rue du Faubourg Saint-Antoine",
+      "postcode": "75011",
+      "contact": {
+        "phone": "01 43 71 52 95",
+        "email": "macsf@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.macsf.fr/Nos-produits-services/Habitation-Loisirs/Immobilier-Logement/residences-etudiantes#paris",
+      "technicians": [
+        {
+          "name": "Baptiste rodriguez",
+          "specialisation": "plumber",
+          "contact": {
+            "phone":"06 23 10 40 12",
+            "email": "Baptiste.rodriguez@gmail.com"
+          } 
+        },
+        {
+          "name": "Eliane Santos",
+          "specialisation": "plumber",
+          "contact": {
+            "phone":"06 55 90 06 21",
+            "email": "eliane.santos@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 3",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 4",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 5",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 3",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 4",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "Résidence Etudiante Paris Voltaire",
+      "id": 7,
+      "adress": "10 Passage Saint-Pierre Amelot",
+      "postcode": "75011",
+      "contact": {
+        "phone": "01 48 06 43 07",
+        "email": "paris.voltairef@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.nexity.fr/",
+      "technicians": [
+        {
+          "name": "Elodie Tores",
+          "specialisation": "plumber",
+          "contact": {
+            "phone":"06 23 10 40 12",
+            "email": "elodie.tores@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "Résidence étudiante Studélites Le Capitole",
+      "id": 8,
+      "adress": "10 Rue Fulton",
+      "postcode": "75013",
+      "contact": {
+        "phone": "04 75 40 80 25",
+        "email": "lecapitole@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.studelites.com/fr/paris/residence-etudiante-capitole-paris.html",
+      "technicians": [
+        {
+          "name": "Antonin helaz",
+          "specialisation": "electrician",
+          "contact": {
+            "phone":"06 05 43 21 89",
+            "email": "antonin.helaz@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 3",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 3",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "Résidence étudiante LOGIFAC Diderot",
+      "id": 9,
+      "adress": "12 Rue de la Croix Faubin",
+      "postcode": "75011",
+      "contact": {
+        "phone": "01 55 42 80 80",
+        "email": "logifac.diderot@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.logifac.fr/residence/la-residence-diderot-paris/",
+      "technicians": [
+        {
+          "name": "joseph antes",
+          "specialisation": "plumber",
+          "contact": {
+            "phone":"06 05 43 21 89",
+            "email": "antonin.helaz@gmail.com"
+          } 
+        },
+        {
+          "name": "maria pommier",
+          "specialisation": "electrician",
+          "contact": {
+            "phone":"06 05 43 21 89",
+            "email": "maria.pommier@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 3",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 4",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 5",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 3",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "Résidence étudiante Studéa Rive Gauche",
+      "id": 10,
+      "adress": "43 Avenue d'Italie",
+      "postcode": "75013",
+      "contact": {
+        "phone": "0 820 83 08 20",
+        "email": "studea.rivegauche@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.nexity-studea.com/locations-etudiantes/paris/studea-rive-gauche-po0000124",
+      "technicians": [
+        {
+          "name": "Christopher therry",
+          "specialisation": "plumber",
+          "contact": {
+            "phone":"06 05 43 21 89",
+            "email": "antonin.helaz@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 3",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "Résidence étudiante Studéa Paris Tessier",
+      "id": 11,
+      "adress": "13-27 Rue Gaston Tessier",
+      "postcode": "75019",
+      "contact": {
+        "phone": "0 820 83 08 20",
+        "email": "studea.tessier@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.nexity-studea.com/locations-etudiantes/paris/studea-paris-tessier-po0000292",
+      "technicians": [
+        {
+          "name": "Louis germain",
+          "specialisation": "electrician",
+          "contact": {
+            "phone":"06 10 21 09 43",
+            "email": "louiq.germain@gmail.com"
+          } 
+        },
+        {
+          "name": "Henry thierry",
+          "specialisation": "plumber",
+          "contact": {
+            "phone":"06 01 42 12 09",
+            "email": "henry.thierry@gmail.com"
+          } 
+        },
+        {
+          "name": "Hugo dubois",
+          "specialisation": "electrician",
+          "contact": {
+            "phone":"06 65 71 21 12",
+            "email": "hugo.dubois@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 3",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 4",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 5",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 6",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 3",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 4",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 5",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 6",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "Résidence étudiante Studéa Buttes Chaumont 1",
+      "id": 12,
+      "adress": "50 Rue Petit",
+      "postcode": "75019",
+      "contact": {
+        "phone": "0 820 83 08 20",
+        "email": "studea.chaumont1@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.nexity-studea.com/locations-etudiantes/paris/studea-buttes-chaumont-1-po0000079",
+      "technicians": [
+        {
+          "name": "Jeanne ronaldo",
+          "specialisation": "elecrtician",
+          "contact": {
+            "phone":"07 63 73 21 09",
+            "email": "jeanne.ronaldo@gmail.com"
+          } 
+        },
+        {
+          "name": "Cristiano ronaldo",
+          "specialisation": "plumber",
+          "contact": {
+            "phone":"06 70 43 10 89",
+            "email": "cristiano.ronaldo@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 3",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 4",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 3",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "STUDEA LEONARD DE VINCI",
+      "id": 13,
+      "adress": "4 Allée Botticelli",
+      "postcode": "92400",
+      "contact": {
+        "phone": "0 820 83 08 20",
+        "email": "studea.leonardevinci@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.nexity-studea.com/locations-etudiantes/courbevoie/studea-leonard-de-vinci-po0000213",
+      "technicians": [
+        {
+          "name": "tony montana",
+          "specialisation": "plumber",
+          "contact": {
+            "phone":"07 63 73 21 09",
+            "email": "tony.montana@gmail.com"
+          } 
+        },
+        {
+          "name": "mourade montana",
+          "specialisation": "electrician",
+          "contact": {
+            "phone":"07 21 13 41 50",
+            "email": "mourade.montana@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 3",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 4",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          }, {
+            "name": "Machine a laver 5",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 3",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 4",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 5",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 6",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "STUDEA GRANDE ARCHE",
+      "id": 14,
+      "adress": "56 avenue de l'arche",
+      "postcode": "92400",
+      "contact": {
+        "phone": "0 820 83 08 20",
+        "email": "studea.grandearche@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.nexity-studea.com/locations-etudiantes/courbevoie/studea-grande-arche-po0000123",
+      "technicians": [
+        {
+          "name": "albert Camus",
+          "specialisation": "plumber",
+          "contact": {
+            "phone":"07 12 31 69 09",
+            "email": "albert.camus@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "STUDEA SAINT OUEN 2",
+      "id": 15,
+      "adress": "4 rue aime cesaire",
+      "postcode": "93400",
+      "contact": {
+        "phone": "0 820 83 08 20",
+        "email": "studea.saintouen2@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.nexity-studea.com/locations-etudiantes/saint-ouen-sur-seine/studea-st-ouen-2-po0000233",
+      "technicians": [
+        {
+          "name": "Franklin Roosevelt",
+          "specialisation": "plumber",
+          "contact": {
+            "phone":"07 10 13 60 50",
+            "email": "franklin.roosevelt@gmail.com"
+          } 
+        },
+        {
+          "name": "Theodore Roosevelt",
+          "specialisation": "electrician",
+          "contact": {
+            "phone":"06 01 41 46 50 12",
+            "email": "theodore.roosevelt@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 3",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 4",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 3",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "STUDEA LILAS D'ESPAGNE",
+      "id": 16,
+      "adress": "30 rue des lilas d'espagne",
+      "postcode": "92400",
+      "contact": {
+        "phone": "0 820 83 08 20",
+        "email": "studea.lilasdespagne@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.nexity-studea.com/locations-etudiantes/courbevoie/studea-lilas-despagne-po0000097",
+      "technicians": [
+        {
+          "name": "Karim Benzema",
+          "specialisation": "plumber",
+          "contact": {
+            "phone":"07 10 13 60 50",
+            "email": "Karim.Benzema@gmail.com"
+          } 
+        },
+        {
+          "name": "Didier Deschamps",
+          "specialisation": "electrician",
+          "contact": {
+            "phone":"06 07 11 63 90 02",
+            "email": "didier.deschamps@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 3",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 4",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 5",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 3",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 4",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "STUDEA NANTERRE JOFFRE",
+      "id": 17,
+      "adress": "44 avenue du marechal joffre",
+      "postcode": "92000",
+      "contact": {
+        "phone": "0 820 83 08 20",
+        "email": "studea.nanterrejoffre@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.nexity-studea.com/locations-etudiantes/nanterre/studea-nanterre-joffre-po0000222",
+      "technicians": [
+        {
+          "name": "Olivier Giroud",
+          "specialisation": "plumber",
+          "contact": {
+            "phone":"07 20 09 12 31",
+            "email": "olivier.giroud@gmail.com"
+          } 
+        },
+        {
+          "name": "Kilian Mbappe",
+          "specialisation": "electrician",
+          "contact": {
+            "phone":"06 01 06 13 21 89",
+            "email": "killian.mbappe@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 3",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 3",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 4",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "STUDEA PRE ST GERVAIS",
+      "id": 18,
+      "adress": "30 rue jean baptiste semanaz",
+      "postcode": "93310",
+      "contact": {
+        "phone": "0 820 83 08 20",
+        "email": "studea.stgervais@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.nexity-studea.com/locations-etudiantes/le-pre-saint-gervais/studea-pre-st-gervais-po0000229",
+      "technicians": [
+        {
+          "name": "Benjamin Pavard",
+          "specialisation": "electrician",
+          "contact": {
+            "phone":"07 20 09 12 31",
+            "email": "benjamin.pavard@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          }
+      ]
+    },
+    {
+      "name": "STUDEA JOINVILLE CENTRE",
+      "id": 19,
+      "adress": "40 rue de paris",
+      "postcode": "94340",
+      "contact": {
+        "phone": "0 820 83 08 20",
+        "email": "studea.joinvillecentre@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.nexity-studea.com/locations-etudiantes/joinville-le-pont/studea-joinville-centre-po0000285",
+      "technicians": [
+        {
+          "name": "Antoine Griezmann ",
+          "specialisation": "electrician",
+          "contact": {
+            "phone":"07 20 09 12 31",
+            "email": "antoine.griezmann@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 3",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          }
+          
+      ]
+    },
+    {
+      "name": "STUDEA MAISON ALFORT 2",
+      "id": 20,
+      "adress": "30 rue eugenerenault",
+      "postcode": "94700",
+      "contact": {
+        "phone": "0 820 83 08 20",
+        "email": "studea.maisonalfort2@gmail.com"
+      },
+      "photo": "url",
+      "website": "https://www.nexity-studea.com/locations-etudiantes/maisons-alfort/studea-maisons-alfort-2-po0000009",
+      "technicians": [
+        {
+          "name": "Lucas Hernandez ",
+          "specialisation": "electrician",
+          "contact": {
+            "phone":"06 10 91 34 01",
+            "email": "antoine.griezmann@gmail.com"
+          } 
+        }
+      ],
+      "laundry": [
+          {
+            "name": "Machine a laver 1",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name": "Machine a laver 2",
+            "type": "washer",
+            "reservation": [],
+            "info": {
+              "degreeMax": 50,
+              "degreeMin": 20,
+              "revolutionsPerMinute": [800, 1200, 1600]
+            }
+          },
+          {
+            "name":"Seche-linge 1",
+            "type": "dryer",
+            "reservation": []
+          },
+          {
+            "name":"Seche-linge 2",
+            "type": "dryer",
+            "reservation": []
+          }
+          
+      ]
+    }
+  ]
+}

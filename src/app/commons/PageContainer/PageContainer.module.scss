@@ -1,3 +1,12 @@
+@import "src/app/styles/_global.scss";
+
 .container {
-  padding: 40px 80px;
+  @include d-grid(1fr, auto, 40px);
+  padding: 10px 20px;
+  @include m {
+    padding: 20px 40px;
+  }
+  @include l {
+    padding: 40px 80px;
+  }
 }

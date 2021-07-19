@@ -8,7 +8,8 @@ import {PrimaryBtn} from "app/commons/Buttons/Buttons";
 
 import styles from "./RegisterForm.module.scss";
 
-const RegisterForm = ({setIsRegistered}) => {
+const RegisterForm = ({setIsRegistered, laundries}) => {
+
 
   const auth = useAuth();
 
@@ -23,11 +24,12 @@ const RegisterForm = ({setIsRegistered}) => {
   });
 
   const submit = async (values, actions) => {
-    const {name, lastName, email, password, confirmPassword} = values;
+    const {name, lastName, email, password, confirmPassword, laundry: laundryId} = values;
     actions.setSubmitting(false);
-    auth.register(name, lastName, email, password, confirmPassword)
+    const laundry = laundries.find(e => e.id === Number(laundryId));
+    auth.register(name, lastName, email, password, confirmPassword, laundry)
     .then(response => {
-      if(response.status === "200") {
+      if(response.status === 200) {
         if(response.data.msg === "Success") setIsRegistered(true)
       } 
     })
@@ -40,7 +42,7 @@ const RegisterForm = ({setIsRegistered}) => {
   return (      
     <Formik 
     onSubmit={submit} 
-    initialValues={{name: "", lastName: "", email: "", password: "", confirmPassword: ""}}
+    initialValues={{name: "", lastName: "", email: "", password: "", confirmPassword: "", laundry: ""}}
     validationSchema={userSchema}
     >
       {({
@@ -59,11 +61,15 @@ const RegisterForm = ({setIsRegistered}) => {
           <ErrorMessage name="name" component={CustomError} />
           <Field name="email" type="email" label="Adresse mail" component={CustomInput} />
           <ErrorMessage name="email" component={CustomError} />
+          <Field as="select" name="laundry">
+            {laundries.map((laundry, i) => <option value={laundry.id} key={i}>{laundry.name}</option>)}
+          </Field>
+          <ErrorMessage name="laundry" component={CustomError} />
           <Field name="password" type="password" label="Mot de passe" component={CustomInput} />
           <ErrorMessage name="password" component={CustomError} />
           <Field name="confirmPassword" type="password" label="Confirmer le mot de passe" component={CustomInput} />
           <ErrorMessage name="confirmPassword" component={CustomError} />
-          <PrimaryBtn type="submit" disabled={isSubmitting} value="Register"/>
+          <PrimaryBtn type="submit" disabled={isSubmitting} value="S'enregistrer"/>
           {registerError && (
             <div className={styles.error}>
               <p>Une erreur est survenue</p>

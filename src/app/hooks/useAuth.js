@@ -32,19 +32,20 @@ function useProvideAuth() {
       })
       .then(response => {
         if(response.status === 200) {
-          localStorage.setItem("user", response.data);
+          localStorage.setItem("user", JSON.stringify(response.data));
           setUser(response.data)
         }
       })
   };
 
-  const register = (name, lastName, email, password, confirmPassword) => {
+  const register = (name, lastName, email, password, confirmPassword, laundry) => {
     return axios.post(API_URL + "register", {
       name,
       lastName,
       email,
       password,
-      confirmPassword
+      confirmPassword,
+      laundry
     })
   };
 
@@ -52,6 +53,9 @@ function useProvideAuth() {
     localStorage.removeItem("user");
     setUser(false);
   };
+
+  const getCurrentUser = () => JSON.parse(localStorage.getItem("user"));
+
 
   // const sendPasswordResetEmail = (email) => {
      
@@ -83,6 +87,7 @@ function useProvideAuth() {
     login,
     register,
     logout,
+    getCurrentUser
     // sendPasswordResetEmail,
     // confirmPasswordReset,
   };

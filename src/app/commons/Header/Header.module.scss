@@ -2,7 +2,7 @@
 
 .container {
   height: 103px;
-  @include d-flex(row, null, center, null);
+  @include d-flex(row, null, center, 2rem);
   padding: 20px 40px;
   background-color: #fff;
 }
@@ -10,3 +10,4 @@
 .navContainer {
   margin-left: auto;
 }
+

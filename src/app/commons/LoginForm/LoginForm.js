@@ -28,16 +28,15 @@ const Form = () => {
     auth.login(email, password)
     .then(response => {
       if(response){
-        if(response.status !== "200") {
-        if(response.data.error) {
-          setLoginError(response.data.error)
-        } else {
-          setLoginError(true)
+        console.log(response);
+        if(response.status !== 200) {
+          if(response.data.error) {
+            setLoginError(response.data.error)
+          } else {
+            setLoginError(true)
+          }
         }
-        
-      }
-      }
-      
+      } 
     });
   }
 
@@ -62,8 +61,8 @@ const Form = () => {
             <ErrorMessage name="email" component={CustomError} />
             <Field name="password" type="password" label="Mot de passe" component={CustomInput} />
             <ErrorMessage name="password" component={CustomError} />
-            <PrimaryBtn type="submit" disabled={isSubmitting} value="Register"/>
-            <p>Don't have an account ? <span><Link to="/register">Register</Link></span></p>
+            <PrimaryBtn type="submit" disabled={isSubmitting} value="Se connecter"/>
+            <p>Don't have an account ? <span><Link to="/register">S'enregistrer</Link></span></p>
             {loginError && <div>{loginError !== true ? loginError : "An error has occured."}</div>}
           </form>
           

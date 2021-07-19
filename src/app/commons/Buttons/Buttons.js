@@ -1,9 +1,9 @@
 import styles from "./Buttons.module.scss";
 
 
-const Button = ({value, rounded, method, arrow, secondary, isDisabled, type, customStyles}) => (
+const Button = ({value, rounded, method, arrow, secondary, text, isDisabled, type, customStyles}) => (
   <button 
-  className={`${styles.button} ${rounded ? styles.rounded : ""} ${secondary ? styles.secondary : ""} ${isDisabled ? styles.disabled : ""}`}
+  className={`${styles.button} ${rounded ? styles.rounded : ""} ${secondary ? styles.secondary : ""} ${isDisabled ? styles.disabled : ""} ${text ? styles.text : ""}`}
   onClick={(e) => {
     if(method) {
       e.preventDefault();
@@ -34,6 +34,12 @@ export function PrimaryBtn({value, rounded, method, arrow, isDisabled, type, cus
 export function SecondaryBtn({value, rounded, method, arrow, isDisabled, type, customStyles}) {
   return (
    <Button customStyles={customStyles} type={type} isDisabled={isDisabled} secondary value={value} rounded={rounded} method={method} arrow={arrow}/>
+  )
+}
+
+export function TextBtn({value, rounded, method, arrow, isDisabled, type, customStyles}) {
+  return (
+   <Button customStyles={customStyles} type={type} isDisabled={isDisabled} text value={value} rounded={rounded} method={method} arrow={arrow}/>
   )
 }
 
