@@ -1,5 +1,26 @@
 @import "src/app/styles/_global.scss";
 
 .container {
-  @include d-flex(row, null, null, .5rem);
+  @include d-flex(row, null, null, 1.5rem);
+}
+
+.link {
+  color: $primary; 
+}
+
+.active {
+  font-weight: bold;
+  color: $secondary;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: -.5rem;
+    left: 0;
+    background: $secondary;
+    border-radius: 50px;
+  }
 }

@@ -16,7 +16,17 @@
 }
 
 .info {
+  @include d-flex(column, center, flex-start, 1.5rem);
+  &__description {
+    margin: 0;
+    // max-width: 500px;
+  }
   &__machines {
+    @include d-flex(row, flex-start, center, 1rem);
+    @include l {
+      flex-direction: column;
+      align-items: flex-start;
+    }
     & > * {
       @include d-flex(row, flex-start, center, .5rem);
     }

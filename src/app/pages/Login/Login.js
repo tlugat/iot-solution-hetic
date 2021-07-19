@@ -5,6 +5,10 @@ import {useAuth} from "app/hooks/useAuth";
 import PageContainer from "app/commons/PageContainer/PageContainer";
 import Form from 'app/commons/LoginForm/LoginForm';
 
+import washer_img from "app/assets/img/washer-login.png";
+
+import styles from "./Login.module.scss";
+
 function Login() {
   const auth = useAuth();
   const [redirectToReferrer, setRedirectToReferrer] = useState(false)
@@ -23,7 +27,13 @@ function Login() {
 
   return (
     <PageContainer>
-      <Form/>
+      <div className={styles.container}>
+        <Form/> 
+        <div className={styles.brands}>
+          <h1>Connectez-vous <br/> pour acceder a votre laverie</h1>
+          <img src={washer_img} alt="washer"/>
+        </div>
+      </div>
     </PageContainer>
   )
 }

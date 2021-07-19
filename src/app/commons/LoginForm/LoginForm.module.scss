@@ -4,3 +4,8 @@
   max-width: 500px;
   @include d-grid(1fr, auto, 1rem)
 }
+
+.registerLink {
+  color: $secondary;
+  font-weight: bold;
+}
