@@ -5,3 +5,11 @@
   background-color: #fff; 
   border-radius: $border-radius-large;
 }
+
+.info {
+  &__machines {
+    & > * {
+      @include d-flex(row, flex-start, center, .5rem);
+    }
+  }
+}

@@ -7,10 +7,14 @@
 }
 
 .about {
-  @include d-flex(row, center, center, 1rem);
+  @include d-flex(column, center, center, 1rem);
   padding: 40px;
   line-height: 28.8px;
   color: $text;
   background-color: #fff;
   border-radius: $border-radius-large;
+
+  @include m {
+    flex-direction: row;
+  }
 }
