@@ -61,8 +61,8 @@ const Form = () => {
             <ErrorMessage name="email" component={CustomError} />
             <Field name="password" type="password" label="Mot de passe" component={CustomInput} />
             <ErrorMessage name="password" component={CustomError} />
-            <PrimaryBtn type="submit" disabled={isSubmitting} value="Se connecter"/>
-            <p>Don't have an account ? <span><Link to="/register">S'enregistrer</Link></span></p>
+            <PrimaryBtn customStyles={{height: "54px"}} type="submit" disabled={isSubmitting} value="Se connecter"/>
+            <p>Vous n'avez pas de compte ? <span><Link className={styles.registerLink} to="/register"> Créez-en un </Link></span></p>
             {loginError && <div>{loginError !== true ? loginError : "An error has occured."}</div>}
           </form>
           

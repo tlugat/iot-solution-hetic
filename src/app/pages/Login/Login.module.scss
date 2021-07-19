@@ -1,0 +1,11 @@
+@import "src/app/styles/_global.scss";
+
+.container {
+  @include d-flex(row, space-around, center, null);
+}
+
+.brands {
+  img {
+    width: 500px;
+  }
+}

@@ -69,7 +69,7 @@ const RegisterForm = ({setIsRegistered, laundries}) => {
           <ErrorMessage name="password" component={CustomError} />
           <Field name="confirmPassword" type="password" label="Confirmer le mot de passe" component={CustomInput} />
           <ErrorMessage name="confirmPassword" component={CustomError} />
-          <PrimaryBtn type="submit" disabled={isSubmitting} value="S'enregistrer"/>
+          <PrimaryBtn customStyles={{height: "54px"}} type="submit" disabled={isSubmitting} value="S'enregistrer"/>
           {registerError && (
             <div className={styles.error}>
               <p>Une erreur est survenue</p>

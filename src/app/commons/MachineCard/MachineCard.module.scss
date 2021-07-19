@@ -1,0 +1,16 @@
+@import "src/app/styles/_global.scss";
+
+.container {
+  @include d-flex(row, center, center, 40px);
+  padding: 20px 40px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(211, 211, 211, 0.25);
+  border-radius: $border-radius-large;
+}
+
+.info {
+  @include d-flex(column, center, flex-start, 1rem);
+  &__buttons {
+    @include d-flex(row, flex-start, center, 1rem);
+  }
+}
