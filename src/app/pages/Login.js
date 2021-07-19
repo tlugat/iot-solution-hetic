@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import {Redirect} from "react-router-dom";
 import {useAuth} from "app/hooks/useAuth";
 
+import PageContainer from "app/commons/PageContainer/PageContainer";
 import Form from 'app/commons/LoginForm/LoginForm';
 
 function Login() {
@@ -21,9 +22,9 @@ function Login() {
   }
 
   return (
-    <div>
+    <PageContainer>
       <Form/>
-    </div>
+    </PageContainer>
   )
 }
 
