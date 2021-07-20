@@ -10,6 +10,7 @@ import Home from "app/pages/Home/Home";
 import Register from "app/pages/Register/Register";
 import Login from "app/pages/Login/Login";
 import Machines from "app/pages/Machines/Machines";
+import MachineProfile from "app/pages/MachineProfile/MachineProfile";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             <Route exact path="/register" component={Register}/>
             <Route exact path="/login" component={Login}/>
             <PrivateRoute exact path="/machines" component={Machines}/>
+            <PrivateRoute path="/machines/:id" component={MachineProfile}/>
           </ProvideAuth>
         </Switch>
       </Router>
