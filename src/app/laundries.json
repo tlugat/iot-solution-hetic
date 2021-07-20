@@ -1144,7 +1144,7 @@
           {
             "name":"Seche-linge 6",
             "type": "dryer",
-            "id": 106,
+            
             "reservation": []
           }
       ]
@@ -1396,7 +1396,7 @@
           {
             "name":"Seche-linge 6",
             "type": "dryer",
-            "id": 106,
+            
             "reservation": []
           }
       ]
