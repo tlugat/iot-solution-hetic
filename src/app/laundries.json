@@ -31,68 +31,96 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 3",
+            "name": "Machine a laver 03",
             "type": "washer",
+            "id": 3,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name": "Machine a laver 4",
+            "name": "Machine a laver 04",
             "type": "washer",
+            "id": 4,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 5",
+            "name": "Machine a laver 05",
             "type": "washer",
+            "id": 5,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           },
           {
-            "name":"Seche-linge 3",
+            "name":"Seche-linge 03",
             "type": "dryer",
+            "id": 103,
             "reservation": []
           }
       ]
@@ -120,48 +148,66 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name": "Machine a laver 3",
+            "name": "Machine a laver 03",
             "type": "washer",
+            "id": 3,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           },
           {
-            "name":"Seche-linge 3",
+            "name":"Seche-linge 03",
             "type": "dryer",
+            "id": 103,
             "reservation": []
           }
       ]
@@ -189,33 +235,45 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           }
       ]
@@ -257,58 +315,81 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           },
           {
-            "name": "Machine a laver 3",
+            "name": "Machine a laver 03",
             "type": "washer",
+            "id": 3,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 3",
+            "name":"Seche-linge 03",
             "type": "dryer",
+            "id": 103,
             "reservation": []
           },
           {
-            "name": "Machine a laver 4",
+            "name": "Machine a laver 04",
             "type": "washer",
+            "id": 4,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
@@ -317,13 +398,18 @@
             "reservation": []
           },
           {
-            "name": "Machine a laver 5",
+            "name": "Machine a laver 05",
             "type": "washer",
+            "id": 5,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           }
       ]
@@ -351,53 +437,75 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 3",
+            "name": "Machine a laver 03",
             "type": "washer",
+            "id": 3,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 4",
+            "name": "Machine a laver 04",
             "type": "washer",
+            "id": 4,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           }
       ]
@@ -433,68 +541,96 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 3",
+            "name": "Machine a laver 03",
             "type": "washer",
+            "id": 3,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 4",
+            "name": "Machine a laver 04",
             "type": "washer",
+            "id": 4,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 5",
+            "name": "Machine a laver 05",
             "type": "washer",
+            "id": 5,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           },
           {
-            "name":"Seche-linge 3",
+            "name":"Seche-linge 03",
             "type": "dryer",
+            "id": 103,
             "reservation": []
           },
           {
@@ -527,28 +663,39 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           }
       ]
@@ -576,48 +723,66 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 3",
+            "name": "Machine a laver 03",
             "type": "washer",
+            "id": 3,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           },
           {
-            "name":"Seche-linge 3",
+            "name":"Seche-linge 03",
             "type": "dryer",
+            "id": 103,
             "reservation": []
           }
       ]
@@ -653,68 +818,96 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 3",
+            "name": "Machine a laver 03",
             "type": "washer",
+            "id": 3,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 4",
+            "name": "Machine a laver 04",
             "type": "washer",
+            "id": 4,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 5",
+            "name": "Machine a laver 05",
             "type": "washer",
+            "id": 5,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           },
           {
-            "name":"Seche-linge 3",
+            "name":"Seche-linge 03",
             "type": "dryer",
+            "id": 103,
             "reservation": []
           }
       ]
@@ -742,38 +935,51 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           },
           {
-            "name":"Seche-linge 3",
+            "name":"Seche-linge 03",
             "type": "dryer",
+            "id": 103,
             "reservation": []
           }
       ]
@@ -817,78 +1023,111 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 3",
+            "name": "Machine a laver 03",
             "type": "washer",
+            "id": 3,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 4",
+            "name": "Machine a laver 04",
             "type": "washer",
+            "id": 4,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 5",
+            "name": "Machine a laver 05",
             "type": "washer",
+            "id": 5,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 6",
+            "name": "Machine a laver 06",
             "type": "washer",
+            "id": 6,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           },
           {
-            "name":"Seche-linge 3",
+            "name":"Seche-linge 03",
             "type": "dryer",
+            "id": 103,
             "reservation": []
           },
           {
@@ -899,11 +1138,13 @@
           {
             "name":"Seche-linge 5",
             "type": "dryer",
+            "id": 105,
             "reservation": []
           },
           {
             "name":"Seche-linge 6",
             "type": "dryer",
+            "id": 106,
             "reservation": []
           }
       ]
@@ -939,58 +1180,81 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 3",
+            "name": "Machine a laver 03",
             "type": "washer",
+            "id": 3,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 4",
+            "name": "Machine a laver 04",
             "type": "washer",
+            "id": 4,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           },
           {
-            "name":"Seche-linge 3",
+            "name":"Seche-linge 03",
             "type": "dryer",
+            "id": 103,
             "reservation": []
           }
       ]
@@ -1026,82 +1290,113 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 3",
+            "name": "Machine a laver 03",
             "type": "washer",
+            "id": 3,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 4",
+            "name": "Machine a laver 04",
             "type": "washer",
+            "id": 4,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           }, {
-            "name": "Machine a laver 5",
+            "name": "Machine a laver 05",
             "type": "washer",
+            "id": 5,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           },
           {
-            "name":"Seche-linge 3",
+            "name":"Seche-linge 03",
             "type": "dryer",
+            "id": 103,
             "reservation": []
           },
           {
-            "name":"Seche-linge 4",
+            "name":"Seche-linge 04",
+            "id": 104,
             "type": "dryer",
             "reservation": []
           },
           {
             "name":"Seche-linge 5",
             "type": "dryer",
+            "id": 105,
             "reservation": []
           },
           {
             "name":"Seche-linge 6",
             "type": "dryer",
+            "id": 106,
             "reservation": []
           }
       ]
@@ -1129,28 +1424,39 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           }
       ]
@@ -1186,58 +1492,81 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 3",
+            "name": "Machine a laver 03",
             "type": "washer",
+            "id": 3,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 4",
+            "name": "Machine a laver 04",
             "type": "washer",
+            "id": 4,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           },
           {
-            "name":"Seche-linge 3",
+            "name":"Seche-linge 03",
             "type": "dryer",
+            "id": 103,
             "reservation": []
           }
       ]
@@ -1273,68 +1602,96 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 3",
+            "name": "Machine a laver 03",
             "type": "washer",
+            "id": 3,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 4",
+            "name": "Machine a laver 04",
             "type": "washer",
+            "id": 4,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 5",
+            "name": "Machine a laver 05",
             "type": "washer",
+            "id": 5,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           },
           {
-            "name":"Seche-linge 3",
+            "name":"Seche-linge 03",
             "type": "dryer",
+            "id": 103,
             "reservation": []
           },
           {
@@ -1375,48 +1732,66 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 3",
+            "name": "Machine a laver 03",
             "type": "washer",
+            "id": 3,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           },
           {
-            "name":"Seche-linge 3",
+            "name":"Seche-linge 03",
             "type": "dryer",
+            "id": 103,
             "reservation": []
           },
           {
@@ -1449,28 +1824,39 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           }
       ]
@@ -1498,43 +1884,60 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 3",
+            "name": "Machine a laver 03",
             "type": "washer",
+            "id": 3,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           }
           
@@ -1563,33 +1966,45 @@
       ],
       "laundry": [
           {
-            "name": "Machine a laver 1",
+            "name": "Machine a laver 01",
             "type": "washer",
+            "id": 1,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name": "Machine a laver 2",
+            "name": "Machine a laver 02",
             "type": "washer",
+            "id": 2,
             "reservation": [],
             "info": {
-              "degreeMax": 50,
-              "degreeMin": 20,
-              "revolutionsPerMinute": [800, 1200, 1600]
+              "degree": {
+                "min": 20,
+                "max": 35
+              },
+              "capacity": 8,
+              "spin": 1200,
+              "volume": 61
             }
           },
           {
-            "name":"Seche-linge 1",
+            "name":"Seche-linge 01",
             "type": "dryer",
+            "id": 101,
             "reservation": []
           },
           {
-            "name":"Seche-linge 2",
+            "name":"Seche-linge 02",
             "type": "dryer",
+            "id": 102,
             "reservation": []
           }
           

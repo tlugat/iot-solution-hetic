@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+import {Link, useRouteMatch} from 'react-router-dom';
 
 import styles from './MachineCard.module.scss'
 
@@ -9,8 +9,8 @@ import dryer_svg from "app/assets/img/dryer-machines.svg";
 
 function MachineCard({machine}) {
 
-
-
+  const {url, match} = useRouteMatch();
+  
   return (
     <div className={styles.container}>
       <img className={styles.machineImg} src={machine.type === "washer" ? washer_svg : dryer_svg} alt=""/>
@@ -18,7 +18,7 @@ function MachineCard({machine}) {
         <h3>{machine.name}</h3>
         <p>Type : {machine.type}</p>
         <div className={styles.info__buttons}>
-          <Link exact to="/machine-profile"><PrimaryBtn bgColor="ultraSoft" value="Infos" /></Link>
+          <Link to={`${url}/${machine.id}`}><PrimaryBtn bgColor="ultraSoft" value="Infos" /></Link>
           <PrimaryBtn value="Reserver" />
         </div>
       </div>
