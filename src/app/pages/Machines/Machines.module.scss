@@ -1,7 +1,7 @@
 @import "src/app/styles/_global.scss";
 
 .container {
-  @include xl {
+  @include l {
     @include d-flex(row, center, flex-start, 40px);
   }
 }
@@ -13,7 +13,5 @@
 }
 
 .machinesList {
-  // display: flex;
-  // gap: 1rem;
-  // flex-wrap: wrap;
+  @include d-flex(column, flex-start, center, 20px);
 }

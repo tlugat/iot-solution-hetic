@@ -3,7 +3,7 @@ import {PrimaryBtn} from "app/commons/Buttons/Buttons";
 function ContactAdmin() {
   return (
     <div className={styles.container}>
-      <h2>Contact admin</h2>
+      <h2 className={styles.title}>Contact admin</h2>
       <p>
         Pour contacter l’administrateur vous avez plusieurs possibilités. 
         <br/>
