@@ -1,1 +1,19 @@
 @import "src/app/styles/_global.scss";
+
+.container {
+  @include xl {
+    @include d-flex(row, center, flex-start, 40px);
+  }
+}
+
+.title {
+  span {
+    color: $secondary;
+  }
+}
+
+.machinesList {
+  // display: flex;
+  // gap: 1rem;
+  // flex-wrap: wrap;
+}

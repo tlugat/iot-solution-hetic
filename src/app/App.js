@@ -9,6 +9,7 @@ import PrivateRoute from "app/commons/PrivateRoute/PrivateRoute";
 import Home from "app/pages/Home/Home";
 import Register from "app/pages/Register/Register";
 import Login from "app/pages/Login/Login";
+import Machines from "app/pages/Machines/Machines";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
             <PrivateRoute exact path="/" component={Home}/>
             <Route exact path="/register" component={Register}/>
             <Route exact path="/login" component={Login}/>
+            <PrivateRoute exact path="/machines" component={Machines}/>
           </ProvideAuth>
         </Switch>
       </Router>

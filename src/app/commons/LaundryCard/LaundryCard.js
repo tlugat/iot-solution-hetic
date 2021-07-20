@@ -1,4 +1,5 @@
 import {useAuth} from "app/hooks/useAuth";
+import {Link} from "react-router-dom";
 
 import styles from './LaundryCard.module.scss';
 
@@ -36,7 +37,7 @@ function LaundryCard() {;
             </div>
           )}
         </div> 
-        <PrimaryBtn value="Accéder à votre laverie" />
+        <Link exact to="/machines"><PrimaryBtn value="Accéder à votre laverie" /></Link>
       </div>
     </div>
   )
