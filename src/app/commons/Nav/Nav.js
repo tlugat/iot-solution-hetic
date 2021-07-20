@@ -6,7 +6,7 @@ function Nav() {
   return (
     <nav className={styles.container}>
      <NavLink className={styles.link} activeClassName={styles.active} exact to="/">Home</NavLink>
-     <NavLink className={styles.link} activeClassName={styles.active} exact to="/dasboard">Dashboard</NavLink>
+     <NavLink className={styles.link} activeClassName={styles.active} exact to="/dashboard">Dashboard</NavLink>
     </nav>
   )
 }

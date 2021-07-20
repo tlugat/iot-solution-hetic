@@ -1,8 +1,8 @@
 import styles from './Module.module.scss'
 
-function Module({children}) {
+function Module({children, customStyles}) {
   return (
-    <div className={styles.container}>
+    <div style={customStyles} className={styles.container}>
       {children}
     </div>
   )

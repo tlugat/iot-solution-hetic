@@ -84,7 +84,7 @@
   font-size: $subtitle-fs;
   line-height: 140%;
   letter-spacing: -0.25px;
-  color: #000000;
+  color: $text;
 }
 
 @mixin body-bold {

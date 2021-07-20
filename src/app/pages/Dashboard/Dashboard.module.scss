@@ -1,1 +1,29 @@
 @import "src/app/styles/_global.scss";
+
+.container {
+  @include d-flex(column, flex-start, center, 40px);
+}
+
+.profile {
+  @include d-flex(row, flex-start, flex-start, 40px);
+  &__avatar {
+    width:186px;
+    height:186px;
+    border-radius: $border-radius-small;
+  }
+}
+
+.info {
+  @include d-flex(column, flex-start, flex-start, 1rem);
+  &__contact {
+    @include d-grid(repeat(2, minmax(auto, max-content)), 1fr 1fr, .5rem);
+
+    & > p {
+      @include subtitle;
+      span {
+        color: $text-ultraSoft;
+      }
+    }
+
+  }
+}
