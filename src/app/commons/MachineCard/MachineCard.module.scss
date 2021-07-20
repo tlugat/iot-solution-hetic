@@ -9,7 +9,7 @@
 }
 
 .info {
-  @include d-flex(column, flex-start, flex-start, null);
+  @include d-flex(column, flex-start, flex-start, .5rem);
   &__buttons {
     @include d-flex(row, flex-start, center, 1rem);
   }

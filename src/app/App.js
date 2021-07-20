@@ -11,6 +11,7 @@ import Register from "app/pages/Register/Register";
 import Login from "app/pages/Login/Login";
 import Machines from "app/pages/Machines/Machines";
 import MachineProfile from "app/pages/MachineProfile/MachineProfile";
+import Dashboard from "app/pages/Dashboard/Dashboard";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
             <Route exact path="/login" component={Login}/>
             <PrivateRoute exact path="/machines" component={Machines}/>
             <PrivateRoute path="/machines/:id" component={MachineProfile}/>
+            <PrivateRoute exact path="/dashboard" component={Dashboard}/>
           </ProvideAuth>
         </Switch>
       </Router>
