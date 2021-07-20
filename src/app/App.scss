@@ -11,6 +11,14 @@
     @include h1;
     margin: 0;
   }
+  h2 {
+    @include h2;
+    margin: 0;
+  }
+  h3 {
+    @include subtitle;
+    margin: 0;
+  }
 
   a {
     text-decoration: none;

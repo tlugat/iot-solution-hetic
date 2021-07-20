@@ -14,6 +14,12 @@
     order:-1;
   }
 }
+.soft {
+  background: $primary-soft;
+}
+.ultraSoft {
+  background: $primary-ultraSoft;
+}
 
 .secondary {
   border: solid 1px $primary;

@@ -64,8 +64,25 @@
 @mixin h1 {
   font-family: "Roboto-bold";
   font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
+  font-size: $h1-fs;
   line-height: 120%;
   letter-spacing: -1px;
+}
+
+@mixin h2 {
+  font-family: "Roboto-bold";
+  font-style: normal;
+  font-size: $h2-fs;
+  line-height: 128%;
+  letter-spacing: -0.5px;
+  color: $text;
+}
+
+@mixin subtitle {
+  font-family: "Roboto-regular";
+  font-style: normal;
+  font-size: $subtitle-fs;
+  line-height: 140%;
+  letter-spacing: -0.25px;
+  color: #000000;
 }

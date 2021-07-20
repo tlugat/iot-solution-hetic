@@ -1,7 +1,7 @@
 @import "src/app/styles/_global.scss";
 
 .container {
-  @include d-flex(row, center, center, 40px);
+  @include d-flex(row, center, flex-end, 40px);
   padding: 20px 40px;
   background-color: #fff;
   box-shadow: 0px 0px 20px rgba(211, 211, 211, 0.25);
@@ -9,8 +9,13 @@
 }
 
 .info {
-  @include d-flex(column, center, flex-start, 1rem);
+  @include d-flex(column, flex-start, flex-start, null);
   &__buttons {
     @include d-flex(row, flex-start, center, 1rem);
   }
+}
+
+.machineImg {
+  width: 120px;
+  height: 120px;
 }
