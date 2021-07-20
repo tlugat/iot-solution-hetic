@@ -9,7 +9,7 @@ import dryer_svg from "app/assets/img/dryer-machines.svg";
 
 function MachineCard({machine}) {
 
-  const {url, match} = useRouteMatch();
+  const {url} = useRouteMatch();
   
   return (
     <div className={styles.container}>
