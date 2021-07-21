@@ -1,7 +1,7 @@
 @import "src/app/styles/_global.scss";
 
 .container {
-  width: calc(100% - 80px);
+  width: 100%;
   padding: 40px;
   @include d-flex(column, center, center, .8rem);
   line-height: 28.8px;

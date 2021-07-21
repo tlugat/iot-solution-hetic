@@ -5,11 +5,3 @@
   @include d-grid(1fr, auto, 1rem)
 }
 
-.error {
-  @include d-flex(row, center, center, .5rem);
-  padding: 0 .5rem;
-  border: 1px solid $error;
-  border-radius: $border-radius-small;
-  background-color: $error;
-  color: #fff;
-}

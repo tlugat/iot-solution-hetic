@@ -1,9 +1,25 @@
 /* Font-sizes */
 
-$title-fs:        56px;   // title
-$h1-fs:           40px;   // h1
-$h2-fs:           32px;   // h2
-$subtitle-fs:     24px;   // subTitle
+// title
+$title-fs:        56px;   
+
+// h1
+  
+$h1-mobile-fs:    24px;
+$h1-tablet-fs:    32px;
+$h1-fs:           40px; 
+
+// h2
+  
+$h2-mobile-fs:    18px;
+$h2-tablet-fs:    24px;   
+$h2-fs:           32px; 
+
+// subTitle
+
+$subtitle-fs: 24px;
+$subtitle-mobile-fs: 20px;
+$subtitle-tablet-fs: 16px;
 
 $body-large-fs:   20px;   // large
 $body-bold-fs:    16px;   // bold

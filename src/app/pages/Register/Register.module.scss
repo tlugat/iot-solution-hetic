@@ -1,12 +1,17 @@
 @import "src/app/styles/_global.scss";
 
 .container {
-  @include d-flex(row, space-around, flex-start, 120px);
+  @include d-flex(column, center, center, 40px);
+  @include l {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 .brands {
   display: none;
-  @include m {
+  @include l {
     display: initial;
   }
   img {
@@ -16,5 +21,18 @@
 
   &__title {
     max-width: 760px;
+    text-align: center;
+    @include l {
+      text-align: left;
+    }
   }
+}
+
+.error {
+  @include d-flex(row, center, center, .5rem);
+  padding: 1rem;
+  border: 1px solid $error;
+  border-radius: $border-radius-small;
+  background-color: $error;
+  color: #fff;
 }
