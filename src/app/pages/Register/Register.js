@@ -10,13 +10,14 @@ import Form from 'app/commons/RegisterForm/RegisterForm';
 import Loader from "app/commons/Loader/Loader";
 
 import washer_png from "app/assets/img/washer-register.png";
+import success_logo from "app/assets/img/success.svg";
 import background from "app/assets/img/background.png";
 
 import styles from "./Register.module.scss";
 
 function Register() {
 
-  const { width, breakpoints: {sm, m, l} } = useViewport();
+  const { width, breakpoints: { l } } = useViewport();
 
   const [registerError, setRegisterError] = useState(false);
 
@@ -49,7 +50,7 @@ function Register() {
   }
 
   return (
-    <PageContainer customStyles={{ backgroundImage: `url(${background})`}}>
+    <PageContainer customStyles={{ backgroundImage: `url(${background})`, height: "calc(100vh - 180px)"}}>
        {registerError && (
             <div className={styles.error}>
               <p>Une erreur est survenue</p>
@@ -58,15 +59,22 @@ function Register() {
               </svg>
             </div>
           )}
+        
       {
+        
         !isLoading && (
           <>
-            {isRegistered ? <div>Votre compte a ete enregistre avec succes !</div> : (
+            {isRegistered ? (
+              <div className={styles.success}>
+                <p>Votre compte a bien été créé !</p>
+                <img src={success_logo} alt="check in circle"/>
+              </div>
+            ) : (
               <div className={styles.container}>
-                { width < l && <h1 className={styles.brands__title}>Inscrivez-vous <br/> et accedez a de nombreuse fonctionnalites qui vous faciliteront la vie !</h1>}
+                { width < l && <h1 className={styles.brands__title}>Inscrivez-vous <br/> et accedez a de nombreuses fonctionnalites qui vous faciliteront la vie !</h1>}
                 <Form setRegisterError={setRegisterError} setIsLoading={setIsLoading} laundries={laundries.laundries} setIsRegistered={setIsRegistered} /> 
                 <div className={styles.brands}>
-                  <h1 className={styles.brands__title}>Inscrivez-vous <br/> et accedez a de nombreuse fonctionnalites qui vous faciliteront la vie !</h1>
+                  <h1 className={styles.brands__title}>Inscrivez-vous <br/> et accedez a de nombreuses fonctionnalites qui vous faciliteront la vie !</h1>
                   <img src={washer_png} alt="washer"/>
                 </div>
               </div>
@@ -74,7 +82,7 @@ function Register() {
           </>
         )
       }
-      
+
       {isLoading && <Loader/>}
     </PageContainer>
   )

@@ -70,7 +70,10 @@ const RegisterForm = ({setIsRegistered, setIsLoading, setRegisterError, laundrie
           <Field name="email" type="email" label="Adresse mail" component={CustomInput} />
           <ErrorMessage name="email" component={CustomError} />
           <Field as="select" name="laundry">
-            {laundries.map((laundry, i) => <option value={laundry.id} key={i}>{laundry.name}</option>)}
+            <>
+              <option value="">Selectionnez une résidence</option>
+              {laundries.map((laundry, i) => <option value={laundry.id} key={i}>{laundry.name}</option>)}
+            </>
           </Field>
           <ErrorMessage name="laundry" component={CustomError} />
           <Field name="password" type="password" label="Mot de passe" component={CustomInput} />

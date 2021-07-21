@@ -8,7 +8,9 @@
   text-align: center;
   background: $primary;
   border-radius: $border-radius-large;
-  color: #fff;
+  p {
+    color: #fff;
+  }
 }
 .title {
   color:#fff !important;

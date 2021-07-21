@@ -34,7 +34,7 @@ function Login() {
   }
   
   return (
-    <PageContainer customStyles={{ backgroundImage: `url(${background})`}} >
+    <PageContainer customStyles={{ backgroundImage: `url(${background})`, height: "calc(100vh - 180px)"}} >
       {
         !isLoading && (
           <div className={styles.container}>

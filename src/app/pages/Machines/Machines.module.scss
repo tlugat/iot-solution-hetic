@@ -1,11 +1,19 @@
 @import "src/app/styles/_global.scss";
 
 .container {
+  background: $light-grey-bg;
+  padding: 20px;
+  border-radius: $border-radius-large;
   @include d-flex(column, center, center, 40px);
   @include l {
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
+    width: fit-content;
+    padding: 40px;
+  }
+  @include xl {
+    column-gap: 120px;
   }
 }
 

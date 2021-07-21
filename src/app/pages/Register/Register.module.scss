@@ -34,5 +34,17 @@
   border: 1px solid $error;
   border-radius: $border-radius-small;
   background-color: $error;
-  color: #fff;
+  p {
+    color: #fff;
+  }
+}
+
+.success {
+  @include d-flex(row, center, center, .5rem);
+  padding: 1rem;
+  border-radius: $border-radius-small;
+  background-color: $success;
+  p {
+    color: #fff;
+  }
 }

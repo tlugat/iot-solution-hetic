@@ -24,17 +24,12 @@ $circle-3: #8A9DA5;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    height: 400px;
+    
 	
 	@media(max-width: 800px){ transform: scale(.8); }
-	@media(max-width: 700px){ transform: scale(.6); }
-	@media(max-width: 500px){ transform: scale(.5); }
-	@media(max-width: 400px){ transform: scale(.4); }
+	@media(min-width: 500px){ transform: scale(.6); }
+	@media(min-width: 500px){ transform: scale(.5); }
+	@media(max-width: 499px){ transform: scale(.4); }
 }
 .l,
 .s{

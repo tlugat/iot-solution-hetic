@@ -34,8 +34,8 @@ function Machines() {
           width < l && (
             <>
               <select className={styles.select} onChange={handleSelect}>
-                <option value="washers">Machines a laver</option>
-                <option value="dryers">Seche linges</option>
+                <option value="washers">Machine à laver</option>
+                <option value="dryers">Sèche Linge</option>
               </select>
               
               <MachinesList 
