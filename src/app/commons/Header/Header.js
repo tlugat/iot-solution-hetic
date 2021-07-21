@@ -1,4 +1,5 @@
 import {useAuth} from "app/hooks/useAuth";
+import {Link} from "react-router-dom";
 
 import styles from './Header.module.scss'
 import Nav from "app/commons/Nav/Nav";
@@ -13,7 +14,7 @@ function Header() {
   
   return (
     <header className={styles.container}>
-      <img className={styles.logo} src={app_logo} alt="wave into a circle"/>
+      <Link exact to="/"><img className={styles.logo} src={app_logo} alt="wave into a circle"/></Link>
       {auth.user && (
         <>
           <div className={styles.navContainer}>

@@ -1,9 +1,25 @@
 /* Font-sizes */
 
-$title-fs:        56px;   // title
-$h1-fs:           40px;   // h1
-$h2-fs:           32px;   // h2
-$subtitle-fs:     24px;   // subTitle
+// title
+$title-fs:        56px;   
+
+// h1
+  
+$h1-mobile-fs:    24px;
+$h1-tablet-fs:    32px;
+$h1-fs:           40px; 
+
+// h2
+  
+$h2-mobile-fs:    18px;
+$h2-tablet-fs:    24px;   
+$h2-fs:           32px; 
+
+// subTitle
+
+$subtitle-fs: 24px;
+$subtitle-mobile-fs: 20px;
+$subtitle-tablet-fs: 16px;
 
 $body-large-fs:   20px;   // large
 $body-bold-fs:    16px;   // bold
@@ -18,7 +34,7 @@ $button-fs:       14px;   // text button
 // background
 
 $light-grey-bg: #F6F6F6;   
-$light-blue-bg       : #F9FCFF;             
+$light-blue-bg: #F9FCFF;             
 
 // primary 
 
@@ -46,7 +62,7 @@ $error-ultraSoft: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255,
 
 // success
 
-$succes:          #29B95F;
+$success:          #29B95F;
 $success-soft:      linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #29B95F;
 $success-ultraSoft: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), #54C77F;
 

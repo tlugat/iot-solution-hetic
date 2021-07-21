@@ -1,6 +1,7 @@
 @import "src/app/styles/_global.scss";
 
 .container {
+  // min-height: calc(100vh - 140px);
   @include d-grid(1fr, auto, 40px);
   margin-top: 100px; // == header height because position fixed get it out of the flux
   padding: 20px 20px;
@@ -9,5 +10,6 @@
   }
   @include xl {
     padding: 40px 80px;
+    // min-height: calc(100vh - 180px);
   }
 }

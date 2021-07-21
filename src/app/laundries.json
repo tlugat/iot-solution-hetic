@@ -11,7 +11,12 @@
       },
       "photo": "url",
       "website": "https://www.nexity-studea.com/locations-etudiantes/paris/studea-daumesnil-po0000005#",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Pablo Escobar",
           "specialisation": "electrician",
@@ -136,7 +141,12 @@
       },
       "photo": "url",
       "website": "https://www.nexity-studea.com/locations-etudiantes/paris/studea-paris-davout-po0000226",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Philippe Deboves",
           "specialisation": "plumber",
@@ -223,7 +233,12 @@
       },
       "photo": "url",
       "website": "https://www.logifac.fr/residence/la-residence-saint-mandeen-paris/",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Lucie berget",
           "specialisation": "electrician",
@@ -289,7 +304,12 @@
       },
       "photo": "url",
       "website": "https://www.estudines.com/residence-logement-etudiant-paris-51-176.html",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Clément Dupont",
           "specialisation": "electrician",
@@ -425,7 +445,12 @@
       },
       "photo": "url",
       "website": "https://www.nexity-studea.com/locations-etudiantes/paris/studea-paris-vivaldi-po0000224",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Elhadji Fall",
           "specialisation": "plumber",
@@ -521,7 +546,12 @@
       },
       "photo": "url",
       "website": "https://www.macsf.fr/Nos-produits-services/Habitation-Loisirs/Immobilier-Logement/residences-etudiantes#paris",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Baptiste rodriguez",
           "specialisation": "plumber",
@@ -651,7 +681,12 @@
       },
       "photo": "url",
       "website": "https://www.nexity.fr/",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Elodie Tores",
           "specialisation": "plumber",
@@ -711,7 +746,12 @@
       },
       "photo": "url",
       "website": "https://www.studelites.com/fr/paris/residence-etudiante-capitole-paris.html",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Antonin helaz",
           "specialisation": "electrician",
@@ -798,7 +838,12 @@
       },
       "photo": "url",
       "website": "https://www.logifac.fr/residence/la-residence-diderot-paris/",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "joseph antes",
           "specialisation": "plumber",
@@ -923,7 +968,12 @@
       },
       "photo": "url",
       "website": "https://www.nexity-studea.com/locations-etudiantes/paris/studea-rive-gauche-po0000124",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Christopher therry",
           "specialisation": "plumber",
@@ -995,7 +1045,12 @@
       },
       "photo": "url",
       "website": "https://www.nexity-studea.com/locations-etudiantes/paris/studea-paris-tessier-po0000292",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Louis germain",
           "specialisation": "electrician",
@@ -1160,7 +1215,12 @@
       },
       "photo": "url",
       "website": "https://www.nexity-studea.com/locations-etudiantes/paris/studea-buttes-chaumont-1-po0000079",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Jeanne ronaldo",
           "specialisation": "elecrtician",
@@ -1270,7 +1330,12 @@
       },
       "photo": "url",
       "website": "https://www.nexity-studea.com/locations-etudiantes/courbevoie/studea-leonard-de-vinci-po0000213",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "tony montana",
           "specialisation": "plumber",
@@ -1412,7 +1477,12 @@
       },
       "photo": "url",
       "website": "https://www.nexity-studea.com/locations-etudiantes/courbevoie/studea-grande-arche-po0000123",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "albert Camus",
           "specialisation": "plumber",
@@ -1472,7 +1542,12 @@
       },
       "photo": "url",
       "website": "https://www.nexity-studea.com/locations-etudiantes/saint-ouen-sur-seine/studea-st-ouen-2-po0000233",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Franklin Roosevelt",
           "specialisation": "plumber",
@@ -1582,7 +1657,12 @@
       },
       "photo": "url",
       "website": "https://www.nexity-studea.com/locations-etudiantes/courbevoie/studea-lilas-despagne-po0000097",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Karim Benzema",
           "specialisation": "plumber",
@@ -1712,7 +1792,12 @@
       },
       "photo": "url",
       "website": "https://www.nexity-studea.com/locations-etudiantes/nanterre/studea-nanterre-joffre-po0000222",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Olivier Giroud",
           "specialisation": "plumber",
@@ -1812,7 +1897,12 @@
       },
       "photo": "url",
       "website": "https://www.nexity-studea.com/locations-etudiantes/le-pre-saint-gervais/studea-pre-st-gervais-po0000229",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Benjamin Pavard",
           "specialisation": "electrician",
@@ -1872,7 +1962,12 @@
       },
       "photo": "url",
       "website": "https://www.nexity-studea.com/locations-etudiantes/joinville-le-pont/studea-joinville-centre-po0000285",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Antoine Griezmann ",
           "specialisation": "electrician",
@@ -1954,7 +2049,12 @@
       },
       "photo": "url",
       "website": "https://www.nexity-studea.com/locations-etudiantes/maisons-alfort/studea-maisons-alfort-2-po0000009",
-      "technicians": [
+      "technician": {
+        "name": "Arsene Lupin",
+        "email": "arsene.lupin@laundryroom.fr",
+        "phone": "06 73 38 39 62"
+      },
+      "experts": [
         {
           "name": "Lucas Hernandez ",
           "specialisation": "electrician",

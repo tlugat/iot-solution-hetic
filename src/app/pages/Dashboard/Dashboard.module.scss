@@ -16,12 +16,17 @@
 .info {
   @include d-flex(column, flex-start, flex-start, 1rem);
   &__contact {
-    @include d-grid(repeat(2, minmax(auto, max-content)), 1fr 1fr, .5rem);
-
+    @include d-grid(1fr, auto, .5rem);
+    @include m {
+      grid-template-columns: repeat(2, minmax(auto, max-content));
+      grid-template-rows: 1fr 1fr;
+    }
     & > p {
-      @include subtitle;
+      @include body-bold;
+      color: $text;
+  
       span {
-        color: $text-ultraSoft;
+        font-family: "Roboto-regular";
       }
     }
 

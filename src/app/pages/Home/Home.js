@@ -14,7 +14,7 @@ function Home() {
  
   const auth = useAuth();
   const user = auth.getCurrentUser();
-  console.log(user);
+  
   return (
     <PageContainer>
       <h1 className={styles.title}>Bienvenue <span>{user.name}</span></h1>

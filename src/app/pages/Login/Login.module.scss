@@ -1,20 +1,25 @@
 @import "src/app/styles/_global.scss";
 
 .container {
-  @include d-flex(row, space-around, center, 120px);
+ @include m {
+   @include d-flex(row, space-around, center, null);
+ }
 }
 
-.brands {
-  display: none;
-  @include m {
-    display: initial;
-  }
-  img {
-    width:100%;
-    max-width: 500px;
-  }
+.formWrapper {
+  @include d-flex(column, center, center, 40px);
+}
 
-  &__title {
-    max-width: 760px;
+.title {
+  text-align: center;
+}
+
+.illustration {
+  width:400px;
+  @include l {
+    width: 550px;
+  }
+  @include xl {
+    width: 700px;
   }
 }

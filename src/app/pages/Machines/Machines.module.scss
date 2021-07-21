@@ -1,8 +1,19 @@
 @import "src/app/styles/_global.scss";
 
 .container {
+  background: $light-grey-bg;
+  padding: 20px;
+  border-radius: $border-radius-large;
+  @include d-flex(column, center, center, 40px);
   @include l {
-    @include d-flex(row, center, flex-start, 40px);
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: fit-content;
+    padding: 40px;
+  }
+  @include xl {
+    column-gap: 120px;
   }
 }
 
@@ -12,6 +23,20 @@
   }
 }
 
-.machinesList {
-  @include d-flex(column, flex-start, center, 20px);
+.select {
+  -webkit-appearance:     none;
+  -moz-appearance:        none;
+  appearance:             none;
+  display:        inline-block;
+  padding:        .8rem 3rem .8rem 2rem;
+  cursor:         pointer;
+  color:          $primary;
+  @include body-bold;
+  border:         1px solid rgb(207, 210, 219);
+  border-radius:  .2em;
+  background-color:     $light-grey-bg;
+  background-image: url("../../assets/img/arrow-down-dropdown.svg");
+  background-size: .8em;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 1rem) center;
 }

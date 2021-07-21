@@ -1,6 +1,7 @@
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 
 import { ProvideAuth } from "app/hooks/useAuth";
+import { ViewportProvider } from "app/hooks/useViewport";
 
 import "./App.scss";
 
@@ -19,15 +20,17 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <ProvideAuth>
-            <Header/>
-            <PrivateRoute exact path="/" component={Home}/>
-            <Route exact path="/register" component={Register}/>
-            <Route exact path="/login" component={Login}/>
-            <PrivateRoute exact path="/machines" component={Machines}/>
-            <PrivateRoute path="/machines/:id" component={MachineProfile}/>
-            <PrivateRoute exact path="/dashboard" component={Dashboard}/>
-          </ProvideAuth>
+          <ViewportProvider>
+            <ProvideAuth>
+              <Header/>
+              <PrivateRoute exact path="/" component={Home}/>
+              <Route exact path="/register" component={Register}/>
+              <Route exact path="/login" component={Login}/>
+              <PrivateRoute exact path="/machines" component={Machines}/>
+              <PrivateRoute path="/machines/:id" component={MachineProfile}/>
+              <PrivateRoute exact path="/dashboard" component={Dashboard}/>
+            </ProvideAuth>
+          </ViewportProvider>
         </Switch>
       </Router>
     </div>

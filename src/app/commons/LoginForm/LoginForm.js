@@ -10,7 +10,7 @@ import {PrimaryBtn} from "app/commons/Buttons/Buttons";
 import styles from "./LoginForm.module.scss";
 
 
-const Form = () => {
+const Form = ({setIsLoading}) => {
 
   const [loginError, setLoginError] = useState(false);
   
@@ -23,12 +23,13 @@ const Form = () => {
 
 
   const submit = async (values, actions) => {
+    setIsLoading(true);
     const {email, password} = values;
     actions.setSubmitting(false);
     auth.login(email, password)
     .then(response => {
+      setIsLoading(false);
       if(response){
-        console.log(response);
         if(response.status !== 200) {
           if(response.data.error) {
             setLoginError(response.data.error)

@@ -1,8 +1,8 @@
 import styles from './PageContainer.module.scss'
 
-function PageContainer({children}) {
+function PageContainer({children, customStyles}) {
   return (
-    <section className={styles.container}>
+    <section style={customStyles} className={styles.container}>
       {children}
     </section>
   )
