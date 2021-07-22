@@ -1,0 +1,13 @@
+@import "src/app/styles/_global.scss";
+
+.container {
+  @include d-flex(row, center, center, .5rem);
+  padding: 1rem;
+  border: 1px solid $error;
+  border-radius: $border-radius-small;
+  background-color: $error;
+  height: fit-content;
+  p {
+    color: #fff;
+  }
+}

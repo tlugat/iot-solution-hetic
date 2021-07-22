@@ -6,6 +6,7 @@ import {useAuth} from "app/hooks/useAuth";
 import Loader from "app/commons/Loader/Loader";
 import PageContainer from "app/commons/PageContainer/PageContainer";
 import Form from 'app/commons/LoginForm/LoginForm';
+import AuthError from "app/commons/AuthError/AuthError";
 
 import washer_img from "app/assets/img/washer-login.png";
 import background from "app/assets/img/background.png";
@@ -15,6 +16,8 @@ import styles from "./Login.module.scss";
 function Login() {
 
   const { width, breakpoints: {m} } = useViewport();
+
+  const [loginError, setLoginError] = useState(false);
 
   const auth = useAuth();
 
@@ -35,12 +38,13 @@ function Login() {
   
   return (
     <PageContainer customStyles={{ backgroundImage: `url(${background})`, height: "calc(100vh - 180px)"}} >
+       <AuthError error={loginError}/>
       {
         !isLoading && (
           <div className={styles.container}>
             <div className={styles.formWrapper}>
               <h1 className={styles.title}>Connectez-vous <br/> pour acceder a votre laverie</h1>
-              <Form setIsLoading={setIsLoading}/> 
+              <Form setLoginError={setLoginError} setIsLoading={setIsLoading}/> 
             </div>
             {
               width >= m && <img className={styles.illustration} src={washer_img} alt="washer"/>

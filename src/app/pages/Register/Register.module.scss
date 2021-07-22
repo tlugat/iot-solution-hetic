@@ -28,16 +28,6 @@
   }
 }
 
-.error {
-  @include d-flex(row, center, center, .5rem);
-  padding: 1rem;
-  border: 1px solid $error;
-  border-radius: $border-radius-small;
-  background-color: $error;
-  p {
-    color: #fff;
-  }
-}
 
 .success {
   @include d-flex(row, center, center, .5rem);

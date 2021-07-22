@@ -1,4 +1,3 @@
-import {useState} from "react";
 import {Formik, Field, ErrorMessage} from 'formik';
 import * as Yup from 'yup';
 import {Link} from 'react-router-dom';
@@ -10,9 +9,8 @@ import {PrimaryBtn} from "app/commons/Buttons/Buttons";
 import styles from "./LoginForm.module.scss";
 
 
-const Form = ({setIsLoading}) => {
+const Form = ({setIsLoading, setLoginError}) => {
 
-  const [loginError, setLoginError] = useState(false);
   
   const auth = useAuth();
 
@@ -27,18 +25,10 @@ const Form = ({setIsLoading}) => {
     const {email, password} = values;
     actions.setSubmitting(false);
     auth.login(email, password)
-    .then(response => {
+    .catch(error => {
       setIsLoading(false);
-      if(response){
-        if(response.status !== 200) {
-          if(response.data.error) {
-            setLoginError(response.data.error)
-          } else {
-            setLoginError(true)
-          }
-        }
-      } 
-    });
+      setLoginError(error);
+   });;
   }
 
   return (  
@@ -64,7 +54,6 @@ const Form = ({setIsLoading}) => {
             <ErrorMessage name="password" component={CustomError} />
             <PrimaryBtn customStyles={{height: "54px"}} type="submit" disabled={isSubmitting} value="Se connecter"/>
             <p>Vous n'avez pas de compte ? <span><Link className={styles.registerLink} to="/register"> Créez-en un </Link></span></p>
-            {loginError && <div>{loginError !== true ? loginError : "An error has occured."}</div>}
           </form>
           
         )}

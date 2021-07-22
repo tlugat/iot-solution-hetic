@@ -1,4 +1,3 @@
-import {useState} from "react";
 import {Formik, Field, ErrorMessage} from 'formik';
 import * as Yup from 'yup';
 import {useAuth} from "app/hooks/useAuth";
@@ -34,9 +33,7 @@ const RegisterForm = ({setIsRegistered, setIsLoading, setRegisterError, laundrie
         if(response.data.msg === "Success") {
           setIsRegistered(true)
         }
-      } else {
-        console.log('test')
-      }
+      } 
     })
     .catch(error => {
        if(error) {
