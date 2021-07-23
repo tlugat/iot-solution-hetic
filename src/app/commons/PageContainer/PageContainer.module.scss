@@ -6,10 +6,13 @@
   margin-top: 100px; // == header height because position fixed get it out of the flux
   padding: 20px 20px;
   @include l {
-    padding: 20px 40px;
+    padding: 40px 40px;
   }
   @include xl {
     padding: 40px 80px;
     // min-height: calc(100vh - 180px);
+  }
+  @include xxl {
+    padding: 40px 120px;
   }
 }
