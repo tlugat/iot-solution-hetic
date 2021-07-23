@@ -14,7 +14,7 @@ function Header() {
   
   return (
     <header className={styles.container}>
-      <Link exact to="/"><img className={styles.logo} src={app_logo} alt="wave into a circle"/></Link>
+      <Link to="/"><img className={styles.logo} src={app_logo} alt="wave into a circle"/></Link>
       {auth.user && (
         <>
           <div className={styles.navContainer}>
