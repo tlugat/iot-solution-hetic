@@ -5,6 +5,7 @@ import styles from './MachineProfile.module.scss';
 
 import PageContainer from "app/commons/PageContainer/PageContainer";
 import Module from "app/commons/Module/Module";
+import MachineHistory from "app/commons/MachineHistory/MachineHistory";
 
 import washer_svg from "app/assets/img/washer-machines.svg";
 import dryer_svg from "app/assets/img/dryer-machines.svg";
@@ -67,6 +68,7 @@ function MachineProfile() {
             </div>
           </div>
         </Module>
+        <MachineHistory/>
       </div>
     </PageContainer>
   )
