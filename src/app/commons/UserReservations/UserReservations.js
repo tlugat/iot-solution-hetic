@@ -1,4 +1,3 @@
-import Module from "app/commons/Module/Module";
 import styles from "./UserReservations.module.scss";
 
 import placeholder from "app/assets/img/userReservations.png";

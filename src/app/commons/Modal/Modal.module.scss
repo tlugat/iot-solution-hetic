@@ -6,16 +6,17 @@
 }
 .modalContent {
   background: #fff;
+  overflow-y: scroll;
   width: fit-content;
   height: fit-content;
-  max-height: calc(100vh - 4rem);
+  max-height: calc(100vh - 200px);
   max-width: calc(100vw - 4rem);
   padding: 2rem;
   // @include flex(row, center, center);
   position: absolute;
-  top: 50%;
+  top: calc(100px + 50%);
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, calc(-50% - 80px));
   padding: 0 1rem;
   border-radius: 20px;
   border: 1px solid rgba(127, 141, 151, 0.3);

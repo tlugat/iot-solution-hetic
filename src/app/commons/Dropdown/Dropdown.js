@@ -7,7 +7,7 @@ import { TextBtn } from "app/commons/Buttons/Buttons";
 
 import arrow_logo from "app/assets/img/arrow-down-profile.svg";
 import styles  from './Dropdown.module.scss';
-
+import placeholder_avatar from "app/assets/img/dashboard/profile/placeholder-profile.png";
 
 function Dropdown() {
 
@@ -21,7 +21,7 @@ function Dropdown() {
     <div className={styles.menuContainer}>
     <div onClick={() => setIsActive(!isActive)} className={styles.menuTrigger}>
       <img
-        src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/df/df7789f313571604c0e4fb82154f7ee93d9989c6.jpg"
+        src={placeholder_avatar}
         alt="User avatar"
       />
       <span>{user.name}</span>

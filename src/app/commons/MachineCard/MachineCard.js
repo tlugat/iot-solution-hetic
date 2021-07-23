@@ -1,13 +1,30 @@
 import {Link, useRouteMatch} from 'react-router-dom';
+import {useState} from 'react';
 
 import styles from './MachineCard.module.scss'
 
 import {PrimaryBtn} from "app/commons/Buttons/Buttons";
+import Modal from "app/commons/Modal/Modal";
+import Reservation from 'app/commons/Reservation/Reservation';
 
 import washer_svg from "app/assets/img/washer-machines.svg";
 import dryer_svg from "app/assets/img/dryer-machines.svg";
 
 function MachineCard({machine}) {
+
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const handleOpenModal = () => {
+    if(!modalIsOpen ) {
+      setModalIsOpen(true)
+    } 
+  }
+
+  const handleCloseModal = () => {
+    if(modalIsOpen) {
+      setModalIsOpen(false);
+    }
+  }
 
   const {url} = useRouteMatch();
 
@@ -24,9 +41,12 @@ function MachineCard({machine}) {
         <p>Type : {machine.type}</p>
         <div className={styles.info__buttons}>
           <Link to={`${url}/${machine.id}`}><PrimaryBtn bgColor="ultraSoft" value="Infos" /></Link>
-          <PrimaryBtn value="Reserver" />
+          <PrimaryBtn method={handleOpenModal} value="Reserver" />
         </div>
       </div>
+      <Modal open={modalIsOpen} close={handleCloseModal} closeBtn={true} >
+        <Reservation closeModal={handleCloseModal}/>
+      </Modal>
     </div>
   )
 }
