@@ -6,6 +6,7 @@ import PageContainer from 'app/commons/PageContainer/PageContainer';
 import Module from "app/commons/Module/Module";
 import ContactAdmin from "app/commons/ContactAdmin/ContactAdmin";
 import UserReservations from "app/commons/UserReservations/UserReservations";
+import AdminDashboard from "app/commons/AdminDashboard/AdminDashboard";
 
 import placeholder_avatar from "app/assets/img/dashboard/profile/placeholder-profile.png";
 
@@ -32,7 +33,9 @@ function Dashboard() {
             </div>
           </div>
         </Module>
-        <UserReservations/>
+        { user.role === "user" ? <UserReservations/> : (
+          <AdminDashboard/>
+        )}
         <ContactAdmin/>
       </div>
     </PageContainer>
