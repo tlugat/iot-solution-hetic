@@ -22,8 +22,9 @@
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
 }
 
-.menuTrigger img {
+.menuTrigger img:first-of-type {
   border-radius: 90px;
+  width: 40px;
 }
 
 .menu {
@@ -55,6 +56,10 @@
 .menu li {
   border-bottom: 1px solid #dddddd;
   padding: 15px 20px;
+
+  &:hover {
+    background-color: $light-grey-bg;
+  }
 }
 
 .menu li a {

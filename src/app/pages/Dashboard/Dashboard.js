@@ -36,7 +36,7 @@ function Dashboard() {
         { user.role === "user" ? <UserReservations/> : (
           <AdminDashboard/>
         )}
-        <ContactAdmin/>
+       {user.role === "user" && <ContactAdmin/>} 
       </div>
     </PageContainer>
   )
