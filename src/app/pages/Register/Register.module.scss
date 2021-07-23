@@ -31,6 +31,7 @@
 
 .success {
   @include d-flex(row, center, center, .5rem);
+  height: fit-content;
   padding: 1rem;
   border-radius: $border-radius-small;
   background-color: $success;
