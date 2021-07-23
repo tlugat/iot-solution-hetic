@@ -1,5 +1,6 @@
 import {useAuth} from "app/hooks/useAuth";
 import {useParams} from "react-router-dom";
+import {useViewport} from "app/hooks/useViewport";
 
 import styles from './MachineProfile.module.scss';
 
@@ -17,12 +18,16 @@ import spin_logo from "app/assets/img/machine-profile/attributes/spin-logo.svg";
 
 function MachineProfile() {
 
+  const { width, breakpoints: { m } } = useViewport();
+
   const auth = useAuth();
   const user = auth.getCurrentUser();
 
   let { id } = useParams();
   
   const machine = user.laundry.laundry.find(el => el.id === Number(id));
+  const indicatorColor = machine.available ? "#29B95F" : "#FF7E7E";
+  const indicatorMsg = machine.available ? "Disponible" : "En cours d'utilisation";
 
   return (
     <PageContainer>
@@ -34,6 +39,7 @@ function MachineProfile() {
               <h1>{machine.name}</h1>
               <span>{user.laundry.name}</span>
             </div>
+            <p className={styles.header__state}><span style={{backgroundColor: indicatorColor}}  className={styles.indicator}></span> {width > m && indicatorMsg}</p>
           </div>
         </Module>
         <Module>
