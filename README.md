@@ -1,3 +1,3 @@
-# Welcome on Laundry Room project
+# Welcome to Laundry Room project
 
 Your solution to make the household chores easy 😜
